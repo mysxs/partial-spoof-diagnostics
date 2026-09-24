@@ -1,0 +1,216 @@
+{
+  "protocol_sha256": "74b2e016e983266176e8adaa6f410c97f352d63edd9f7a538541d2ccdc2f43c2",
+  "cases": 200,
+  "speakers": 40,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "bootstrap_draws": 2000,
+  "thresholds": {
+    "dev_fpr_0.05": {
+      "rates": {
+        "original": {
+          "genuine_fpr": 0.09040934468240894,
+          "gg_fpr": 0.16724441698700349,
+          "gg_excess_fpr": 0.07683507230459455,
+          "gf_core_fnr": 0.3852564102564103,
+          "gf_smooth50_core_fnr": 0.30538461538461537
+        },
+        "augmentation": {
+          "genuine_fpr": 0.08865893282079444,
+          "gg_fpr": 0.1273682042833608,
+          "gg_excess_fpr": 0.03870927146256635,
+          "gf_core_fnr": 0.43141025641025643,
+          "gf_smooth50_core_fnr": 0.31166666666666665
+        },
+        "consistency": {
+          "genuine_fpr": 0.07861980596741718,
+          "gg_fpr": 0.11559010616877173,
+          "gg_excess_fpr": 0.036970300201354556,
+          "gf_core_fnr": 0.4403846153846154,
+          "gf_smooth50_core_fnr": 0.30346153846153845
+        }
+      },
+      "contrasts": {
+        "augmentation_minus_original_gg_excess_fpr": {
+          "estimate": -0.0381258008420282,
+          "paired_speaker_seed_95ci": [
+            -0.050879413948812395,
+            -0.026965127315135305
+          ],
+          "bootstrap_two_sided_p": 0.0,
+          "holm_adjusted_bootstrap_p": 0.0
+        },
+        "augmentation_minus_original_gf_core_fnr": {
+          "estimate": 0.046153846153846156,
+          "paired_speaker_seed_95ci": [
+            -0.031536259907340033,
+            0.11873091683535761
+          ],
+          "bootstrap_two_sided_p": 0.236,
+          "holm_adjusted_bootstrap_p": 0.236
+        },
+        "consistency_minus_augmentation_gg_excess_fpr": {
+          "estimate": -0.0017389712612117941,
+          "paired_speaker_seed_95ci": [
+            -0.004972501755645146,
+            0.0012481340944463278
+          ],
+          "bootstrap_two_sided_p": 0.237
+        },
+        "consistency_minus_augmentation_gf_core_fnr": {
+          "estimate": 0.008974358974358942,
+          "paired_speaker_seed_95ci": [
+            -0.024336230001567195,
+            0.04694853831314386
+          ],
+          "bootstrap_two_sided_p": 0.609
+        },
+        "original_smoothing_minus_raw_gf_core_fnr": {
+          "estimate": -0.07987179487179491,
+          "paired_speaker_seed_95ci": [
+            -0.14038947888761322,
+            -0.020973022075963296
+          ],
+          "bootstrap_two_sided_p": 0.01
+        }
+      }
+    },
+    "dev_fpr_0.01": {
+      "rates": {
+        "original": {
+          "genuine_fpr": 0.042067087680761485,
+          "gg_fpr": 0.08121682225883214,
+          "gg_excess_fpr": 0.03914973457807066,
+          "gf_core_fnr": 0.6262820512820513,
+          "gf_smooth50_core_fnr": 0.6348717948717949
+        },
+        "augmentation": {
+          "genuine_fpr": 0.037708218927329305,
+          "gg_fpr": 0.05399391360058576,
+          "gg_excess_fpr": 0.016285694673256454,
+          "gf_core_fnr": 0.6355128205128205,
+          "gf_smooth50_core_fnr": 0.5280769230769231
+        },
+        "consistency": {
+          "genuine_fpr": 0.030529242174629323,
+          "gg_fpr": 0.045562191103789125,
+          "gg_excess_fpr": 0.015032948929159802,
+          "gf_core_fnr": 0.6311538461538462,
+          "gf_smooth50_core_fnr": 0.5330769230769231
+        }
+      },
+      "contrasts": {
+        "augmentation_minus_original_gg_excess_fpr": {
+          "estimate": -0.022864039904814205,
+          "paired_speaker_seed_95ci": [
+            -0.03156899936701821,
+            -0.014852291188538293
+          ],
+          "bootstrap_two_sided_p": 0.0
+        },
+        "augmentation_minus_original_gf_core_fnr": {
+          "estimate": 0.009230769230769265,
+          "paired_speaker_seed_95ci": [
+            -0.07562902783491028,
+            0.10141761398856206
+          ],
+          "bootstrap_two_sided_p": 0.852
+        },
+        "consistency_minus_augmentation_gg_excess_fpr": {
+          "estimate": -0.001252745744096652,
+          "paired_speaker_seed_95ci": [
+            -0.004996293991208078,
+            0.0025621528909326075
+          ],
+          "bootstrap_two_sided_p": 0.482
+        },
+        "consistency_minus_augmentation_gf_core_fnr": {
+          "estimate": -0.004358974358974366,
+          "paired_speaker_seed_95ci": [
+            -0.033429646801502295,
+            0.02875141036702728
+          ],
+          "bootstrap_two_sided_p": 0.757
+        },
+        "original_smoothing_minus_raw_gf_core_fnr": {
+          "estimate": 0.008589743589743626,
+          "paired_speaker_seed_95ci": [
+            -0.05709693225658394,
+            0.06785382101558565
+          ],
+          "bootstrap_two_sided_p": 0.81
+        }
+      }
+    },
+    "original_dev_eer": {
+      "rates": {
+        "original": {
+          "genuine_fpr": 0.09501990664470071,
+          "gg_fpr": 0.17504118616144976,
+          "gg_excess_fpr": 0.08002127951674905,
+          "gf_core_fnr": 0.3680769230769231,
+          "gf_smooth50_core_fnr": 0.28
+        },
+        "augmentation": {
+          "genuine_fpr": 0.09659870950027458,
+          "gg_fpr": 0.137842073952041,
+          "gg_excess_fpr": 0.041243364451766434,
+          "gf_core_fnr": 0.40923076923076923,
+          "gf_smooth50_core_fnr": 0.285
+        },
+        "consistency": {
+          "genuine_fpr": 0.08565005491488194,
+          "gg_fpr": 0.12502288120080543,
+          "gg_excess_fpr": 0.03937282628592349,
+          "gf_core_fnr": 0.41615384615384615,
+          "gf_smooth50_core_fnr": 0.28
+        }
+      },
+      "contrasts": {
+        "augmentation_minus_original_gg_excess_fpr": {
+          "estimate": -0.03877791506498261,
+          "paired_speaker_seed_95ci": [
+            -0.05094553423587454,
+            -0.029125746354601433
+          ],
+          "bootstrap_two_sided_p": 0.0
+        },
+        "augmentation_minus_original_gf_core_fnr": {
+          "estimate": 0.04115384615384615,
+          "paired_speaker_seed_95ci": [
+            -0.03326212841064328,
+            0.11440627866715877
+          ],
+          "bootstrap_two_sided_p": 0.242
+        },
+        "consistency_minus_augmentation_gg_excess_fpr": {
+          "estimate": -0.0018705381658429415,
+          "paired_speaker_seed_95ci": [
+            -0.005249923919850512,
+            0.0007916675838476731
+          ],
+          "bootstrap_two_sided_p": 0.192
+        },
+        "consistency_minus_augmentation_gf_core_fnr": {
+          "estimate": 0.006923076923076921,
+          "paired_speaker_seed_95ci": [
+            -0.024908203762473904,
+            0.042575405544191015
+          ],
+          "bootstrap_two_sided_p": 0.685
+        },
+        "original_smoothing_minus_raw_gf_core_fnr": {
+          "estimate": -0.08807692307692305,
+          "paired_speaker_seed_95ci": [
+            -0.15164241844542894,
+            -0.026742194484129952
+          ],
+          "bootstrap_two_sided_p": 0.006
+        }
+      }
+    }
+  }
+}

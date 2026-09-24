@@ -1,0 +1,54 @@
+{
+  "frozen_at_utc": "2026-09-24T09:52:58.906176+00:00",
+  "source": "Official LlamaPartialSpoof A archive, checksum verified; only generated controls scored here",
+  "cases": 200,
+  "speakers": 40,
+  "seed": 20260924,
+  "model_selection": "All 9 frame checkpoints and operating thresholds selected previously on PS development",
+  "checkpoints": {
+    "frame/original/seed1": "438d284d4fdbe0359b5d3a4bb029e3ddde6ea3608b30da8613946617b0f5a5c7",
+    "frame/original/seed2": "df64d07d0eecc97158d2de8bc0d62c8ebe4728f30c05b85727ee7f54509f0540",
+    "frame/original/seed3": "993fc48a3bb46eb70e3c4513a227f53cc57e889f1f776abbfe35ee45c844f529",
+    "frame/augmentation/seed1": "6108297464c9439541f728da35e46d146a829714d3b88ba57247deec46c1c503",
+    "frame/augmentation/seed2": "edaee97a4077b0cca93b55b6423c3874ef372e6669a0403e986a06b5308d9847",
+    "frame/augmentation/seed3": "70adfa0f9e0597aecb56aa1fb73bb96348400c6b8bc16a44db9b18c6fc5b57cc",
+    "frame/consistency/seed1": "4a355d689891ca7df20e36442917e1c7329dd2b914d4aa5e240d84d0fba83a32",
+    "frame/consistency/seed2": "d2cdd0eefc5dd3ba23354fcacae32a7fb9e36b0b6f3dd15c9141094be35edf37",
+    "frame/consistency/seed3": "39cebda71288da3a5e4c0ead49e03638848568148aca2dc1d1cd09d2f01ec0a3"
+  },
+  "source_thresholds": [
+    "original_dev_eer",
+    "dev_fpr_0.01",
+    "dev_fpr_0.05"
+  ],
+  "primary": [
+    "At dev 5% FPR, augmentation minus original GG excess FPR",
+    "At dev 5% FPR, augmentation minus original GF-core FNR"
+  ],
+  "secondary": [
+    "The same contrasts at dev 1% FPR",
+    "Consistency minus augmentation",
+    "50ms smoothing response",
+    "full development-threshold grid"
+  ],
+  "inference": "Frozen final-layer WavLM Large and 9 saved frame heads, no Llama-A tuning or polarity flip",
+  "statistics": "Three training seeds; speaker-and-seed paired bootstrap with 2000 draws; report both primary contrasts together, with Holm correction for two primary endpoints; secondary intervals descriptive",
+  "controls_sha256": {
+    "controls.json": "9dc4bdaa155fd684616b7ec1238a192c8f21758d30fd449b825826d329fb8879",
+    "ids.txt": "444322c1ca44a0d953172bfb47675cd91e8d9dbe06b081b00934a4b5e44b132e",
+    "labels20_spoof1.npz": "f170e740bbc8b0ddfc804f9184e6810ca7fa1ae821d1fdf16c6000e5a6bf1045",
+    "core_masks20.npz": "d39f8ee67c545bb17db7334d499af6053fd55a169e4927a2842876940b4a4104",
+    "complete.json": "d26a7745ae1ad2f6b4f79a0c05a4bd37dbc2fa511179f8634f4edc338ccafd6f"
+  },
+  "calibration_sha256": "df89a830c69903aec646932dd4d2cd2c449ed88e1efc620df8144af8b0a8abc5",
+  "prior_protocol_sha256": "870b3b5eadbc2a332a64d1fb20160b9a4a614155e11c31237f5af7c467786180",
+  "builder_sha256": "77ae761f8ba270828bf0c31cb7949feda0a4c84f2d6e90181cfb012943f1d2fb",
+  "source_label_sha256": "cbeebd5030f1111f1ec5606bf28a6cbe9600d65f3eea7cd149a7b8dfc422ebda",
+  "source_archive_md5": "685acfe986b50baaf3e25e9d5e3091a4",
+  "limitations": [
+    "The broader paper already inspected Llama-A transfer EER, so this is an intervention-specific pre-scored follow-up, not a pristine blind corpus.",
+    "Constructed controls are not official Llama-A benchmark samples or labels.",
+    "Source-speaker ID is inferred from official filenames; texts and synthesis generators are not matched.",
+    "The source 400ms donor and boundary-excluded core policy match PS controls, but source-corpus covariates remain confounded."
+  ]
+}

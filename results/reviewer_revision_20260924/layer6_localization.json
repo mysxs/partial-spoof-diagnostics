@@ -1,0 +1,643 @@
+{
+  "models": [
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 1,
+        "split": "dev",
+        "checkpoint_sha256": "0e066701731d47b05a8bd9d55f04ec60a31e807a59511f4cc1efd16deee7e997",
+        "predictions_sha256": "0d0472ed393435bb9b633cec6c634eb21d073af6f480a85c34ec6bd6a956a991",
+        "history_sha256": "2725422163b4c68aad1552fcffa017c0f93964983af0f8c4d6735eb9acd8e2d6",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Soft frame",
+      "split": "dev",
+      "seed": 1,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.3779226541519165,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 1.947120512930356,
+      "frame_f1_pct": 97.75597132233733,
+      "frame_recall_pct": 98.05287042600003,
+      "event_precision_pct": 82.0109680876535,
+      "event_recall_pct": 85.39628644695603,
+      "event_f1_pct": 83.66939822380932,
+      "short_event_recall_pct": 71.02401627161073,
+      "matched_boundary_mae_ms": 9.639585157996365,
+      "reference_events": 84232,
+      "predicted_events": 87709,
+      "matched_events": 71931,
+      "short_reference_events": 38349,
+      "short_matched_events": 27237,
+      "tp": 1863787,
+      "fp": 48557,
+      "fn": 37011,
+      "tn": 2445291
+    },
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 2,
+        "split": "dev",
+        "checkpoint_sha256": "5d477b05f9d170f3601113944d5366c1ea7dfb8467ef314ee15d7b274e046479",
+        "predictions_sha256": "3fdbe66b3241852be031c6d4eb42ba6dc60880c5e6db7521d16af5d472f8cf75",
+        "history_sha256": "37e38d8f08b6c01d2cd7040d29ae79787972ee0d20c44bf03e166bf18720dc8b",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Soft frame",
+      "split": "dev",
+      "seed": 2,
+      "layer": 6,
+      "selected_epoch": 7,
+      "threshold": 0.3856933116912842,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 1.9530339459129749,
+      "frame_f1_pct": 97.74912159883436,
+      "frame_recall_pct": 98.04692555442503,
+      "event_precision_pct": 80.99519576149426,
+      "event_recall_pct": 85.66459302877766,
+      "event_f1_pct": 83.26448188322179,
+      "short_event_recall_pct": 71.96537067459386,
+      "matched_boundary_mae_ms": 10.79507185719781,
+      "reference_events": 84232,
+      "predicted_events": 89088,
+      "matched_events": 72157,
+      "short_reference_events": 38349,
+      "short_matched_events": 27598,
+      "tp": 1863674,
+      "fp": 48706,
+      "fn": 37124,
+      "tn": 2445142
+    },
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 3,
+        "split": "dev",
+        "checkpoint_sha256": "992de1afa1b551db0e4f3274a2e4933b777ac8ef0d4f2c92fab8cfdef4b51f42",
+        "predictions_sha256": "51d78d12bb0ae0966155feb523ef533328e63a3cf205c21fba93a8166bc0aa57",
+        "history_sha256": "2d7b8f4a24abf28f136fff066f5ce18db5d91c142973b353579e91b5b8307c29",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Soft frame",
+      "split": "dev",
+      "seed": 3,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.4084972143173218,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 2.0406190933832824,
+      "frame_f1_pct": 97.64855467017962,
+      "frame_recall_pct": 97.95938337477207,
+      "event_precision_pct": 81.84604353156153,
+      "event_recall_pct": 84.01676322537753,
+      "event_f1_pct": 82.91719879553364,
+      "short_event_recall_pct": 68.62499674046259,
+      "matched_boundary_mae_ms": 10.709491443991434,
+      "reference_events": 84232,
+      "predicted_events": 86466,
+      "matched_events": 70769,
+      "short_reference_events": 38349,
+      "short_matched_events": 26317,
+      "tp": 1862010,
+      "fp": 50889,
+      "fn": 38788,
+      "tn": 2442959
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 1,
+        "split": "dev",
+        "checkpoint_sha256": "49ad6c27b0a3a7ea68caf0060f68ae1e74737ab986cd3392a95e04d125ac1b71",
+        "predictions_sha256": "fd87ffda5e50e03fb6870382885a402c11debd47dac0a89db37b81b7827400be",
+        "history_sha256": "77faa7ed497592223d17c1d6ca8621bea936e40dbb321acf14eab20f53044ab2",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Phone unit",
+      "split": "dev",
+      "seed": 1,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.33415651321411133,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 3.470335873240851,
+      "frame_f1_pct": 96.00994198329485,
+      "frame_recall_pct": 96.52966806572819,
+      "event_precision_pct": 83.11299942805785,
+      "event_recall_pct": 60.38204007977966,
+      "event_f1_pct": 69.94712123608409,
+      "short_event_recall_pct": 19.009622154423845,
+      "matched_boundary_mae_ms": 21.849452429165257,
+      "reference_events": 84232,
+      "predicted_events": 61195,
+      "matched_events": 50861,
+      "short_reference_events": 38349,
+      "short_matched_events": 7290,
+      "tp": 1834834,
+      "fp": 86543,
+      "fn": 65964,
+      "tn": 2407305
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 2,
+        "split": "dev",
+        "checkpoint_sha256": "9f42406cab4163e427c8400f7e374d2b650d0f5f5c2def1f181a90ab51ffa03e",
+        "predictions_sha256": "fac68ce65ffaf541033612ef0f7d5ce59d402647fd439311e1177ff45859e737",
+        "history_sha256": "1d070d9bd7b556e1ad894327dc4a408d4ac3efea55207821d218ec5b7682426e",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Phone unit",
+      "split": "dev",
+      "seed": 2,
+      "layer": 6,
+      "selected_epoch": 7,
+      "threshold": 0.2963064908981323,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 3.4987817186060886,
+      "frame_f1_pct": 95.97731025185338,
+      "frame_recall_pct": 96.50110111647845,
+      "event_precision_pct": 81.85015658877379,
+      "event_recall_pct": 60.5043213980435,
+      "event_f1_pct": 69.5768514031004,
+      "short_event_recall_pct": 19.695428824741192,
+      "matched_boundary_mae_ms": 22.599776312686775,
+      "reference_events": 84232,
+      "predicted_events": 62265,
+      "matched_events": 50964,
+      "short_reference_events": 38349,
+      "short_matched_events": 7553,
+      "tp": 1834291,
+      "fp": 87254,
+      "fn": 66507,
+      "tn": 2406594
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 3,
+        "split": "dev",
+        "checkpoint_sha256": "7780e74eeda42c7a291cdd8b49e8b1628c9ba001f10e49e28f1fe62d2c74a82e",
+        "predictions_sha256": "259af2f3bb62ef70aa607a20c7a30948b7832066fffe0b875731351916ff8817",
+        "history_sha256": "b18aa6a555de12e3d7fd808e1b76627da19f83465baddc860a61809cfbc08ffb",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10_sha256": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20_sha256": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "arm": "Phone unit",
+      "split": "dev",
+      "seed": 3,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.2788141965866089,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 3.499643679892814,
+      "frame_f1_pct": 95.97640405697852,
+      "frame_recall_pct": 96.50041719319991,
+      "event_precision_pct": 83.84173814371057,
+      "event_recall_pct": 59.6483521701966,
+      "event_f1_pct": 69.70546206245925,
+      "short_event_recall_pct": 18.5376411379697,
+      "matched_boundary_mae_ms": 23.37977429691231,
+      "reference_events": 84232,
+      "predicted_events": 59926,
+      "matched_events": 50243,
+      "short_reference_events": 38349,
+      "short_matched_events": 7109,
+      "tp": 1834278,
+      "fp": 87276,
+      "fn": 66520,
+      "tn": 2406572
+    },
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 1,
+        "split": "eval",
+        "checkpoint_sha256": "0e066701731d47b05a8bd9d55f04ec60a31e807a59511f4cc1efd16deee7e997",
+        "predictions_sha256": "8f1d7e4728f491978dce7bd1c7e9d39a744e433fde1d4c784d7b1b94c484d560",
+        "history_sha256": "2725422163b4c68aad1552fcffa017c0f93964983af0f8c4d6735eb9acd8e2d6",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Soft frame",
+      "split": "eval",
+      "seed": 1,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.3779226541519165,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 9.623674946518838,
+      "frame_f1_pct": 88.41738495582483,
+      "frame_recall_pct": 84.15136012745477,
+      "event_precision_pct": 57.200703340869126,
+      "event_recall_pct": 73.54249469273863,
+      "event_f1_pct": 64.3503063277594,
+      "short_event_recall_pct": 69.33839807603485,
+      "matched_boundary_mae_ms": 23.932237231185095,
+      "reference_events": 232229,
+      "predicted_events": 298575,
+      "matched_events": 170787,
+      "short_reference_events": 125574,
+      "short_matched_events": 87071,
+      "tp": 3986823,
+      "fp": 293684,
+      "fn": 750858,
+      "tn": 7186161
+    },
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 2,
+        "split": "eval",
+        "checkpoint_sha256": "5d477b05f9d170f3601113944d5366c1ea7dfb8467ef314ee15d7b274e046479",
+        "predictions_sha256": "b8345fb5596a0f83be75c7aaed4c501764507646666bd401e1629d5d1827c3a0",
+        "history_sha256": "37e38d8f08b6c01d2cd7040d29ae79787972ee0d20c44bf03e166bf18720dc8b",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Soft frame",
+      "split": "eval",
+      "seed": 2,
+      "layer": 6,
+      "selected_epoch": 7,
+      "threshold": 0.3856933116912842,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 9.85735546619207,
+      "frame_f1_pct": 88.17625061840741,
+      "frame_recall_pct": 83.62971251124759,
+      "event_precision_pct": 56.47167021195651,
+      "event_recall_pct": 73.5058928902075,
+      "event_f1_pct": 63.87257066311449,
+      "short_event_recall_pct": 69.82655645276888,
+      "matched_boundary_mae_ms": 24.630057058513913,
+      "reference_events": 232229,
+      "predicted_events": 302279,
+      "matched_events": 170702,
+      "short_reference_events": 125574,
+      "short_matched_events": 87684,
+      "tp": 3962109,
+      "fp": 287004,
+      "fn": 775572,
+      "tn": 7192841
+    },
+    {
+      "identity": {
+        "arm": "Soft frame",
+        "seed": 3,
+        "split": "eval",
+        "checkpoint_sha256": "992de1afa1b551db0e4f3274a2e4933b777ac8ef0d4f2c92fab8cfdef4b51f42",
+        "predictions_sha256": "fca9da20e177dba086befe93039a68f7ab35cddb2295eef69045da86cb7bc86c",
+        "history_sha256": "2d7b8f4a24abf28f136fff066f5ce18db5d91c142973b353579e91b5b8307c29",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Soft frame",
+      "split": "eval",
+      "seed": 3,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.4084972143173218,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 9.292478700381055,
+      "frame_f1_pct": 88.81322611707361,
+      "frame_recall_pct": 84.71433597998683,
+      "event_precision_pct": 58.26475534666561,
+      "event_recall_pct": 72.6519943676285,
+      "event_f1_pct": 64.6678241938513,
+      "short_event_recall_pct": 67.00113080733273,
+      "matched_boundary_mae_ms": 23.950266419326216,
+      "reference_events": 232229,
+      "predicted_events": 289573,
+      "matched_events": 168719,
+      "short_reference_events": 125574,
+      "short_matched_events": 84136,
+      "tp": 4013495,
+      "fp": 286881,
+      "fn": 724186,
+      "tn": 7192964
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 1,
+        "split": "eval",
+        "checkpoint_sha256": "49ad6c27b0a3a7ea68caf0060f68ae1e74737ab986cd3392a95e04d125ac1b71",
+        "predictions_sha256": "b4e337dca6071dd62c8babae78d9cf91749a34adb752a071b3fd31b96b244fbf",
+        "history_sha256": "77faa7ed497592223d17c1d6ca8621bea936e40dbb321acf14eab20f53044ab2",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Phone unit",
+      "split": "eval",
+      "seed": 1,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.33415651321411133,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 10.820971028204388,
+      "frame_f1_pct": 87.01598891347935,
+      "frame_recall_pct": 82.93990245438644,
+      "event_precision_pct": 58.91176878958442,
+      "event_recall_pct": 47.50354176265669,
+      "event_f1_pct": 52.59614719884049,
+      "short_event_recall_pct": 20.848264768184496,
+      "matched_boundary_mae_ms": 38.564409837124224,
+      "reference_events": 232229,
+      "predicted_events": 187258,
+      "matched_events": 110317,
+      "short_reference_events": 125574,
+      "short_matched_events": 26180,
+      "tp": 3929428,
+      "fp": 364399,
+      "fn": 808253,
+      "tn": 7115446
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 2,
+        "split": "eval",
+        "checkpoint_sha256": "9f42406cab4163e427c8400f7e374d2b650d0f5f5c2def1f181a90ab51ffa03e",
+        "predictions_sha256": "d2f13b3e1a97e5211fd5b8e4ef50fa5a754bf80a1984a634601e67f4e05d8f69",
+        "history_sha256": "1d070d9bd7b556e1ad894327dc4a408d4ac3efea55207821d218ec5b7682426e",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Phone unit",
+      "split": "eval",
+      "seed": 2,
+      "layer": 6,
+      "selected_epoch": 7,
+      "threshold": 0.2963064908981323,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.043692787577768,
+      "frame_f1_pct": 87.00008868597102,
+      "frame_recall_pct": 82.20333956634057,
+      "event_precision_pct": 58.93127296304301,
+      "event_recall_pct": 46.96657178905305,
+      "event_f1_pct": 52.273015918659794,
+      "short_event_recall_pct": 21.228120470798096,
+      "matched_boundary_mae_ms": 39.07064270653672,
+      "reference_events": 232229,
+      "predicted_events": 185080,
+      "matched_events": 109070,
+      "short_reference_events": 125574,
+      "short_matched_events": 26657,
+      "tp": 3894532,
+      "fp": 320725,
+      "fn": 843149,
+      "tn": 7159120
+    },
+    {
+      "identity": {
+        "arm": "Phone unit",
+        "seed": 3,
+        "split": "eval",
+        "checkpoint_sha256": "7780e74eeda42c7a291cdd8b49e8b1628c9ba001f10e49e28f1fe62d2c74a82e",
+        "predictions_sha256": "f68bbb7f03a5ea2e94fdd14dbb9a91bc1cf6471c29b5eea59d9cd0e54d637cd2",
+        "history_sha256": "b18aa6a555de12e3d7fd808e1b76627da19f83465baddc860a61809cfbc08ffb",
+        "matching_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "ids_sha256": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10_sha256": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20_sha256": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      },
+      "arm": "Phone unit",
+      "split": "eval",
+      "seed": 3,
+      "layer": 6,
+      "selected_epoch": 8,
+      "threshold": 0.2788141965866089,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.675988619658847,
+      "frame_f1_pct": 86.2099536687997,
+      "frame_recall_pct": 81.21711867050567,
+      "event_precision_pct": 60.20070677781805,
+      "event_recall_pct": 45.77378363598,
+      "event_f1_pct": 52.00523476963345,
+      "short_event_recall_pct": 20.03440202589708,
+      "matched_boundary_mae_ms": 38.5753998118709,
+      "reference_events": 232229,
+      "predicted_events": 176576,
+      "matched_events": 106300,
+      "short_reference_events": 125574,
+      "short_matched_events": 25158,
+      "tp": 3847808,
+      "fp": 341109,
+      "fn": 889873,
+      "tn": 7138736
+    }
+  ],
+  "summary": [
+    {
+      "split": "dev",
+      "arm": "Soft frame",
+      "layer": 6,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 1.9802578507422044,
+        "sd": 0.0523579209126117
+      },
+      "frame_f1_pct": {
+        "mean": 97.71788253045044,
+        "sd": 0.06013729155286495
+      },
+      "frame_recall_pct": {
+        "mean": 98.01972645173238,
+        "sd": 0.05234310439101417
+      },
+      "event_precision_pct": {
+        "mean": 81.61740246023643,
+        "sd": 0.5451200870177647
+      },
+      "event_recall_pct": {
+        "mean": 85.02588090037041,
+        "sd": 0.88415833816657
+      },
+      "event_f1_pct": {
+        "mean": 83.28369296752159,
+        "sd": 0.3764675209025982
+      },
+      "short_event_recall_pct": {
+        "mean": 70.53812789555573,
+        "sd": 1.7223792092465942
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 10.381382819728536,
+        "sd": 0.6438391336309336
+      }
+    },
+    {
+      "split": "dev",
+      "arm": "Phone unit",
+      "layer": 6,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 3.489587090579918,
+        "sd": 0.016677612871509543
+      },
+      "frame_f1_pct": {
+        "mean": 95.98788543070891,
+        "sd": 0.01910690794633721
+      },
+      "frame_recall_pct": {
+        "mean": 96.51039545846885,
+        "sd": 0.016694070225450462
+      },
+      "event_precision_pct": {
+        "mean": 82.93496472018073,
+        "sd": 1.0076564595127515
+      },
+      "event_recall_pct": {
+        "mean": 60.17823788267325,
+        "sd": 0.4629495992159966
+      },
+      "event_f1_pct": {
+        "mean": 69.74314490054792,
+        "sd": 0.18798918724025898
+      },
+      "short_event_recall_pct": {
+        "mean": 19.080897372378246,
+        "sd": 0.5821754026328803
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 22.609667679588114,
+        "sd": 0.7652088826461628
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Soft frame",
+      "layer": 6,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 9.591169704363988,
+        "sd": 0.28383777622779005
+      },
+      "frame_f1_pct": {
+        "mean": 88.46895389710195,
+        "sd": 0.32160373638003154
+      },
+      "frame_recall_pct": {
+        "mean": 84.16513620622973,
+        "sd": 0.5424429486082336
+      },
+      "event_precision_pct": {
+        "mean": 57.31237629983041,
+        "sd": 0.9017437066046354
+      },
+      "event_recall_pct": {
+        "mean": 73.23346065019155,
+        "sd": 0.5038970145827364
+      },
+      "event_f1_pct": {
+        "mean": 64.29690039490839,
+        "sd": 0.40030761894461486
+      },
+      "short_event_recall_pct": {
+        "mean": 68.72202844537883,
+        "sd": 1.5101957358794142
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 24.170853569675074,
+        "sd": 0.3977840444607825
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Phone unit",
+      "layer": 6,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 11.180217478480335,
+        "sd": 0.4435572272477103
+      },
+      "frame_f1_pct": {
+        "mean": 86.74201042275003,
+        "sd": 0.4608432449074423
+      },
+      "frame_recall_pct": {
+        "mean": 82.12012023041089,
+        "sd": 0.8644015761815048
+      },
+      "event_precision_pct": {
+        "mean": 59.34791617681516,
+        "sd": 0.7386027078644701
+      },
+      "event_recall_pct": {
+        "mean": 46.74796572922991,
+        "sd": 0.8853571320346136
+      },
+      "event_f1_pct": {
+        "mean": 52.29146596237791,
+        "sd": 0.2958879481032353
+      },
+      "short_event_recall_pct": {
+        "mean": 20.703595754959892,
+        "sd": 0.6098670133436968
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 38.73681745184395,
+        "sd": 0.2891533682827373
+      }
+    }
+  ],
+  "scope": "Frozen-prediction retrospective audit; original labels; saved PS-dev thresholds; IoU>=0.5."
+}

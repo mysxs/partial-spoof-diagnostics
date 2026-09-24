@@ -1,0 +1,211 @@
+{
+  "summary": [
+    {
+      "system": "final",
+      "dataset": "PS eval",
+      "eer_pct": {
+        "mean": 11.1229311316459,
+        "sd": 0.020073939936079043
+      },
+      "fpr_pct": {
+        "mean": 5.939013442123467,
+        "sd": 0.2836280124223303
+      },
+      "fnr_pct": {
+        "mean": 17.579592209775203,
+        "sd": 0.3405438734856756
+      }
+    },
+    {
+      "system": "final",
+      "dataset": "HAD",
+      "eer_pct": {
+        "mean": 38.588812915328994,
+        "sd": 1.008857559777825
+      },
+      "fpr_pct": {
+        "mean": 63.92290385638788,
+        "sd": 5.808981087547074
+      },
+      "fnr_pct": {
+        "mean": 13.801299097119115,
+        "sd": 1.1717589639517942
+      }
+    },
+    {
+      "system": "final",
+      "dataset": "Llama A",
+      "eer_pct": {
+        "mean": 42.413083703318975,
+        "sd": 0.44421825712191293
+      },
+      "fpr_pct": {
+        "mean": 28.260749091646403,
+        "sd": 0.8500999194126326
+      },
+      "fnr_pct": {
+        "mean": 55.9961935148099,
+        "sd": 1.5031442589438888
+      }
+    },
+    {
+      "system": "final",
+      "dataset": "Llama B",
+      "eer_pct": {
+        "mean": 38.587060828770056,
+        "sd": 0.1185784967264479
+      },
+      "fpr_pct": {
+        "mean": 39.06548460949493,
+        "sd": 1.0979059986508157
+      },
+      "fnr_pct": {
+        "mean": 38.09604587748973,
+        "sd": 1.34649509753917
+      }
+    },
+    {
+      "system": "layer 6",
+      "dataset": "PS eval",
+      "eer_pct": {
+        "mean": 9.77155500025929,
+        "sd": 0.48732830260081117
+      },
+      "fpr_pct": {
+        "mean": 3.2887802710706793,
+        "sd": 0.23458872791124566
+      },
+      "fnr_pct": {
+        "mean": 17.422053813528883,
+        "sd": 1.049485225690828
+      }
+    },
+    {
+      "system": "layer 6",
+      "dataset": "HAD",
+      "eer_pct": {
+        "mean": 56.58163416188509,
+        "sd": 5.00254035174974
+      },
+      "fpr_pct": {
+        "mean": 80.9591915232179,
+        "sd": 3.0986800242416566
+      },
+      "fnr_pct": {
+        "mean": 20.84604422224273,
+        "sd": 3.7077461863071295
+      }
+    },
+    {
+      "system": "layer 6",
+      "dataset": "Llama A",
+      "eer_pct": {
+        "mean": 41.492783573222916,
+        "sd": 0.6381089540132918
+      },
+      "fpr_pct": {
+        "mean": 44.156324191402895,
+        "sd": 1.6425351009581384
+      },
+      "fnr_pct": {
+        "mean": 39.06442317207031,
+        "sd": 2.6152440730723265
+      }
+    },
+    {
+      "system": "layer 6",
+      "dataset": "Llama B",
+      "eer_pct": {
+        "mean": 41.24548145300347,
+        "sd": 0.06871434345144124
+      },
+      "fpr_pct": {
+        "mean": 57.76763939335649,
+        "sd": 1.5803889887797427
+      },
+      "fnr_pct": {
+        "mean": 24.415963108971685,
+        "sd": 1.6320040249405874
+      }
+    },
+    {
+      "system": "layer 12",
+      "dataset": "PS eval",
+      "eer_pct": {
+        "mean": 8.278214200136926,
+        "sd": 0.4181946152495469
+      },
+      "fpr_pct": {
+        "mean": 3.483864527495779,
+        "sd": 0.1790866482095252
+      },
+      "fnr_pct": {
+        "mean": 14.44732841517471,
+        "sd": 0.8882710425848426
+      }
+    },
+    {
+      "system": "layer 12",
+      "dataset": "HAD",
+      "eer_pct": {
+        "mean": 38.735311602875655,
+        "sd": 3.3227015779765052
+      },
+      "fpr_pct": {
+        "mean": 63.86395418069541,
+        "sd": 3.915733825293874
+      },
+      "fnr_pct": {
+        "mean": 11.032352532717432,
+        "sd": 6.229546712004121
+      }
+    },
+    {
+      "system": "layer 12",
+      "dataset": "Llama A",
+      "eer_pct": {
+        "mean": 40.81537411188444,
+        "sd": 0.17667217960067663
+      },
+      "fpr_pct": {
+        "mean": 24.13704438522702,
+        "sd": 1.509347997787302
+      },
+      "fnr_pct": {
+        "mean": 55.620528320007274,
+        "sd": 1.4456137715078432
+      }
+    },
+    {
+      "system": "layer 12",
+      "dataset": "Llama B",
+      "eer_pct": {
+        "mean": 35.70063813677684,
+        "sd": 0.08910980674993726
+      },
+      "fpr_pct": {
+        "mean": 35.64465113472208,
+        "sd": 1.6486357601439963
+      },
+      "fnr_pct": {
+        "mean": 35.77340522406116,
+        "sd": 1.4788895795811818
+      }
+    }
+  ],
+  "source_sha256": {
+    "results/eval_frames_v2/base.json": "282f3d56b7ab8cdb9526d51d75fa35819cc8216acfe8bd7d704abafc4f850ddc",
+    "results/external/had/frame_results.json": "a4f22a685edf0e13cda40d22a9fcddded58309b9337b77a90e4ed8e35cbaadb3",
+    "results/source_locked_transfer/raw/llama_a_final.json": "0f9c8ec65357ad6216525e08cb8c79336a5d8d29d1034e950f95c8da8e600b43",
+    "results/llama_b_last/summary.json": "7d32a05bfbd512283c055c2148912937be4235427b63df92aa0f4b29154d7fe3",
+    "results/ssl_layers_v2/layer6/eval_ps/summary.json": "dea64ac165155e9c7006d20931ca4e50bca5b6759d8940a6b33fc437dd0982ff",
+    "results/ssl_layers_v2/layer6/eval_had/summary.json": "e6dd03888afde3ccc6a5bfdfa5b159b5dbeb9b5e920730b643a1b24d9de40b89",
+    "results/llama_a_frame/layer6_summary.json": "b33664036c20eea6d81efdb287540782b09db2b44fd906db043a9bbde29d80f9",
+    "results/llama_b_layers/layer6/summary.json": "9836051d162750ef8fdb9e7804aa01ef7c31593dd4ab8c5c57c55c717e128835",
+    "results/ssl_layers_v2/layer12/eval_ps/summary.json": "d1aa852711065864545d5e774658c0ab15b8c0bf99846b501f7b4b7f60f68ab9",
+    "results/ssl_layers_v2/layer12/eval_had/summary.json": "a9f024811e189f50a447f4701fa53a27610ea2aea99f5ebb2da26428027d409f",
+    "results/llama_a_frame/layer12_summary.json": "c17b3f25ef9718eadfb7b6689427d8f0f0e8db480488b4a618fcb63000fc8176",
+    "results/llama_b_layers/layer12/summary.json": "8cb00e6ea0ecabc27f7989be185634d9828b839bd93e96d143441c0bd71ff21c"
+  },
+  "policy": "All operating thresholds and checkpoints saved on PS development; no external tuning or polarity flip. Three seed means and sample SD. FPR/FNR use pooled 20-ms frames."
+}

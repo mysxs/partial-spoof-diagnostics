@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "arm": "phone",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "eer_mean_pct": 11.236797750348506,
+      "eer_sample_sd_pct": 0.22434675569175208,
+      "seed_eer_pct": [
+        11.091501126152359,
+        11.123709326615142,
+        11.495182798278018
+      ],
+      "checkpoint_sha256": [
+        "a7b06d4d7549d55d96c2d6d7088a78283e8c935031bb08095065aecf707641e6",
+        "c0045e76b44ffd1d39e5112bb44630559d3d84c0f56605e6b3bbee8fc65d8181",
+        "56715562c71a112ee70feb91584cdbba9f981096298b377b87c36c41331e17f5"
+      ]
+    },
+    {
+      "arm": "permuted",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "eer_mean_pct": 11.977103215708972,
+      "eer_sample_sd_pct": 0.2844357295893918,
+      "seed_eer_pct": [
+        12.301984307569022,
+        11.77291471915959,
+        11.856410620398306
+      ],
+      "checkpoint_sha256": [
+        "5e6f99be85fc5487723be265f9a987862d0daffb46145b0681679498a790e280",
+        "752ea8e61575f53f609976e71cbd0b8e544416b06d61b8a0ad89dea4c0fe8743",
+        "8614b4152701979a6119b184280edbaafd00399a86e548da4aa092a798ffa21b"
+      ]
+    },
+    {
+      "arm": "fixed80",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "eer_mean_pct": 11.188610047552874,
+      "eer_sample_sd_pct": 0.12732673927183566,
+      "seed_eer_pct": [
+        11.253097278796082,
+        11.270791718859192,
+        11.041941145003351
+      ],
+      "checkpoint_sha256": [
+        "53f92bcf4041062016ee7f18fe64981d44f647913a9836550fb1feafabcd0b78",
+        "a3cd73e970fb3f15ccc5a69c34e6b380f38594ed7a90eb8363cc2f66f4834adb",
+        "af3854b1d8df4d733d0cfad29ff12b47873e623e0e9a14d2fdebf5ed432fb33e"
+      ]
+    }
+  ],
+  "control": "Permuted intervals preserve each utterance's phone width multiset but change boundary positions; all arms use unit outputs, duration-weighted occupancy BCE, the same frozen final-layer WavLM features, PS-dev checkpoint selection, and original PS-eval references.",
+  "limitations": "These controls are final-layer, not layer-6, and PS evaluation is retrospective. Width permutation changes acoustic alignment and does not isolate semantic content by itself.",
+  "ids_sha256": "c6edf028a066b4a3824149b6fd72d061932b58f325b87dbf5251c4e025f70eb6",
+  "source_sha256": {
+    "phone_eval.json": "5980bb904d5ef05f2057d35079816516ca5ad4bd663644f2695b6dcb8549a961",
+    "permuted_eval.json": "95db5af4ff453f23ce921738e20b9736acb13d990419b38508cd2fbeb4d4553e",
+    "fixed80_eval.json": "71e6575b4d996010c43a2fd6ad0eb016ad536e6c9ab309c6e2768e124cccc4b1",
+    "phone_train_metadata.json": "1c6629bfad28d72734537e8d621b716533410c0590818a22182cee6e95956830",
+    "permuted_train_metadata.json": "30eee3c7e95093caac68e486e09c78cafbe6080e7c1d4bd38a8f4ca5408e2f94",
+    "fixed80_train_metadata.json": "cb5748b4410e032f9c1e3676b14085b02e1f2b9467956d2f7cbca742c2849b70"
+  }
+}
