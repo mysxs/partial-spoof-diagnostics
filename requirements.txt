@@ -1,0 +1,5 @@
+numpy
+scipy
+scikit-learn
+pytest
+# Install a PyTorch/WavLM-compatible stack separately for training/extraction.
