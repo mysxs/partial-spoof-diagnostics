@@ -1,13 +1,16 @@
 {
   "files": {
     ".gitignore": "0fed42e8b672414e6ff5f9b25494fa65279e5f13b9c157d6a76bc18ea0ea2cfd",
+    "CITATION.cff": "47e309c0acecd8325a4fae04b0c6f962c14ae017dca4003fc7ccbaa2d66e6a96",
     "E4_summary_20260919.csv": "87eed3082c17133f922cf10e73a823fee4f3875bff1c93e96f86c5111b04819e",
     "LICENSE": "ff54d3fa03d2de1304d917c97984c34246f477b9e9bac0acdc85a43ab5af0cb3",
     "MATCHED_CONTROLS_INTERACTION.json": "dc20209e130fc5f6221ab9c43687c5508200a49e8ff05656d2a78e6a36975222",
     "MATCHED_CONTROLS_SUMMARY.json": "c239736c198c9eaa978c640bc109f2aee3cb6a9abc14f59a7bfc4fd30f915319",
     "PROVENANCE.md": "dbc495395002499e6b83464cf0e9bd32be23800d7cb3239b31808a1660eb53a0",
-    "README.md": "f4b1b09af8b87486b37f3fc0d6b7caba230861f22dcfe96e7707dd080c8a210b",
+    "README.md": "e3b56dc42d4116a6d24e2d06117a732f327f5e5f0122c5f9b85ae5e1b49a8574",
     "RECFPRF_SOURCE_CHECK.json": "e8b9573793a5f173747480962c2b061ddd9d884aa5094e0c9880b156b094e857",
+    "docs/REPRODUCIBILITY.md": "eb144eca35e127672bef9df0868875b078d130f9cdf97ba2e53d763609a3b72b",
+    "docs/RESULTS.md": "218f7fe4af9e9da2c4ef003148918957b3f7500278bc5113306d3385f4acc59e",
     "requirements.txt": "8a1fa3482c7e423f39bb287d0d708addd5f86899cfe970ee7ac2a591b82d4cac",
     "results/E4_summary_20260919.csv": "87eed3082c17133f922cf10e73a823fee4f3875bff1c93e96f86c5111b04819e",
     "results/audit.log": "dd5788b0d11d80cb48934341235b7d6aa396ab5652ae36066e57da2b239cc62d",
@@ -39,7 +42,7 @@
     "results/matched_controls_v2_summary.json": "c239736c198c9eaa978c640bc109f2aee3cb6a9abc14f59a7bfc4fd30f915319",
     "results/provenance/README.md": "7a13ef37a268b802c658ae537b0bb57abc85a0ef1b33c23144bad51df95309f7",
     "results/provenance/recfprf_source_check.json": "e8b9573793a5f173747480962c2b061ddd9d884aa5094e0c9880b156b094e857",
-    "results/seed_results.csv": "b45629510651f68e63da7989dda1b356774ffa67077a369f8b77c08089b3a6d7",
+    "results/seed_results.csv": "9ecb4bda450d6e3af4aa558e4c65b8090be2ede6ae81884bc649dd19b1639bc5",
     "results/summary.json": "7645ac27902f38581e40e9cd152d79424eff3f541a6494a38fbf0780f001ce76",
     "scripts/audit_localization_table.py": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
     "scripts/evaluate_event_strata.py": "fdf32d25cfa60370a88b656a13e28ad40442690fe5e21c69bae424e0156a4443",
@@ -47,8 +50,9 @@
     "scripts/extract_wavlm.py": "f7ff8457123f18327f6060f2704d00744a3188b2a2bf12fb9aeb9e587708939d",
     "scripts/train_frame.py": "081468649365474bacd008464536301f4f252ff78112d1cd13e63346b6c3cbcb",
     "scripts/train_units.py": "1c9d6dc776328e78d100f78f7beda45aac690ca0231a62e01b17b8f17d14dc1c",
+    "scripts/verify_manifest.py": "b73f0ca2db22d8639565d6aa2975fb922e53d427fe993b350f2b696cd154adf5",
     "tests/conftest.py": "86c0f9fec19352d23e526a4dfa5c297ebd3ef0b91c18325dde862050e2385722",
     "tests/test_event_strata.py": "e24082d9bf066d8f1c2c004663ee709d1c0c5b4bad1c95696c95092e12eca165"
   },
-  "note": "This manifest covers the release package; raw data, checkpoints and private paths are excluded."
+  "note": "SHA-256 for current direct GitHub files; excludes this manifest and the earlier frozen source ZIP. No raw data, checkpoints, or private paths are included."
 }

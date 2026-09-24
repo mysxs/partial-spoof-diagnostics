@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or its released result records, please cite this repository and the associated paper when available."
+title: "Partial Spoof Diagnostics: Code and Reproducibility Records"
+authors:
+  - family-names: Su
+    given-names: Xiaosu
+  - family-names: Cao
+    given-names: Yun
+  - family-names: Ni
+    given-names: Yiping
+  - family-names: Yi
+    given-names: Xiaowei
+type: software
+repository-code: "https://github.com/mysxs/partial-spoof-diagnostics"
+url: "https://github.com/mysxs/partial-spoof-diagnostics"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-24
+abstract: "Selected code, PS localization audit, matched-control summaries, and provenance for a study of partial speech spoofing."

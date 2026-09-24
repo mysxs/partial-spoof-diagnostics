@@ -1,51 +1,64 @@
-# Partial-spoof diagnostics and reproducibility package
+# Partial Spoof Diagnostics
 
-Repository: https://github.com/mysxs/partial-spoof-diagnostics
+[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE) [![Release: research audit](https://img.shields.io/badge/release-research%20audit-0969da)](docs/REPRODUCIBILITY.md)
 
-Companion code for *Separating Boundary Artifacts from Synthetic Content in Partial Speech Spoofing: A Controlled Study*.
+**Code and result records for _Separating Boundary Artifacts from Synthetic Content in Partial Speech Spoofing: A Controlled Study_.** This repository exposes the localization audit, selected training entry points, and numerical provenance as ordinary GitHub files. It retains negative findings and explains the limits of retrospective analysis.
 
-This directory contains the experiment-side code used for the ICASSP study. It does **not** redistribute PartialSpoof, HAD, LlamaPartialSpoof, forced-alignment models, or WavLM weights. Obtain those resources from their official sources and follow their licenses.
+| Start here | Contents |
+| --- | --- |
+| [Results guide](docs/RESULTS.md) | Three-seed localization table, metric definitions, links to raw rows |
+| [Reproducibility guide](docs/REPRODUCIBILITY.md) | Input layout, commands, integrity checks, release scope |
+| [Provenance](PROVENANCE.md) | reCFPRF source commit/checksums and matched-control records |
+| [Citation](CITATION.cff) | Machine-readable repository citation |
 
-## Contents
+> [!IMPORTANT]
+> The PartialSpoof **evaluation** localization table is a retrospective audit of frozen predictions. Checkpoint and threshold selection used development data; evaluation labels were not used to retune them. This release provides audit code and selected training code, not a one-command reproduction of every paper experiment.
 
-- `scripts/audit_localization_table.py`: recomputes PS development diagnostics and the retrospective PS evaluation table from frozen predictions. It never fits a threshold on PS evaluation.
-- `scripts/event_strata.py`: deterministic 20-ms proposal construction and one-to-one IoU matching against the released 10-ms labels.
-- `scripts/extract_wavlm.py`: feature extraction used by the frozen WavLM front end; supply local paths in the command line/configuration used for your run.
-- `scripts/train_frame.py`, `scripts/train_units.py`: frame and aligned-unit training entry points.
-- `scripts/evaluate_event_strata.py`: localization summaries.
-- `tests/test_event_strata.py`: unit tests for event matching and duration bins.
-- `MATCHED_CONTROLS_SUMMARY.json`: per-seed raw counts, thresholds,
-  metrics, and input hashes for the 18 matched-control runs. Private checkpoint
-  paths are removed, but the numerical records are unchanged.
-- `MATCHED_CONTROLS_INTERACTION.json`: speaker-bootstrap interaction
-  contrasts and the stated limitations of the constructed controls.
-- `E4_summary_20260919.csv`: source-locked E4 comparison summary used
-  for the transfer and intervention tables.
-- `RECFPRF_SOURCE_CHECK.json`: reCFPRF source commit and SHA-256 records;
-  see `PROVENANCE.md`.
+## Results at a glance
 
-## Reproducing the reported PS audit
+These values come from [`results/summary.json`](results/summary.json): **three seeds**, **last WavLM layer**, PS **evaluation** frozen-prediction audit. Values are mean ± sample standard deviation, in percent.
 
-Install the audit dependencies with `python -m pip install -r requirements.txt`. Training and feature extraction additionally require a compatible PyTorch/WavLM stack and separately obtained data and models. The release covers the PS localization audit, matched-control result records, the E4 summary, and selected training entry points. Raw data, checkpoints, forced-alignment models, and private paths are intentionally excluded, so the package is a reproducibility record and audit entry point rather than a turnkey end-to-end rerun of every experiment.
+| Model | Frame EER ↓ | Frame F1 ↑ | Event F1 ↑ |
+| --- | ---: | ---: | ---: |
+| Hard-target frame | 11.123 ± 0.020 | 85.945 ± 0.010 | 55.479 ± 0.505 |
+| Soft-target frame | 11.326 ± 0.132 | 85.657 ± 0.135 | 54.199 ± 0.572 |
+| Phone units | 11.237 ± 0.224 | 86.030 ± 0.314 | 49.888 ± 0.394 |
+| Word units | 12.514 ± 0.182 | 84.624 ± 0.311 | 48.169 ± 0.559 |
 
-Prepare a verified PS protocol view containing the official train/dev/eval lists and labels, and retain frozen checkpoints and predictions. Then run:
+The word-unit branch is retained even though it underperforms. E4 transfer/intervention and matched-control records have different setups; they should not be collapsed into this table. See the [results guide](docs/RESULTS.md) for development rows, per-seed values, matching rules, and limitations.
 
-```bash
-python scripts/audit_localization_table.py \
-  --run-root /path/to/frozen/run \
-  --data-root /path/to/partialspoof/verified_protocol_view \
-  --official-repo /path/to/official-eer-kernel \
-  --out results/ps_localization
+## Repository map
+
+```text
+scripts/                         extraction, training, and audit entry points
+tests/                           deterministic event-matching tests
+results/                         three-seed PS audit rows and summaries
+docs/                            reproduction and result guides
+MATCHED_CONTROLS_SUMMARY.json    18 per-seed matched-control records
+MATCHED_CONTROLS_INTERACTION.json speaker-bootstrap contrasts and limitations
+E4_summary_20260919.csv         source-locked transfer/intervention summary
+RECFPRF_SOURCE_CHECK.json        reCFPRF source and adapter hashes
+PROVENANCE.md                   human-readable source notes
+MANIFEST.sha256.json            checksums for current direct release files
+partial-spoof-diagnostics-source.zip  earlier frozen source snapshot
 ```
 
-The audit writes one JSON and one per-utterance CSV for each arm/seed/split, together with `summary.json` and `seed_results.csv`. SHA-256 identities cover checkpoints, predictions, configs, histories, label arrays, ID lists, the matching code, and the official EER implementation. The PS evaluation rows are a retrospective audit of predictions produced in the completed study; they are not a prospectively held-out benchmark.
+The key scripts are [`audit_localization_table.py`](scripts/audit_localization_table.py), [`event_strata.py`](scripts/event_strata.py), [`evaluate_event_strata.py`](scripts/evaluate_event_strata.py), [`extract_wavlm.py`](scripts/extract_wavlm.py), [`train_frame.py`](scripts/train_frame.py), and [`train_units.py`](scripts/train_units.py). The release does not contain every E4/cross-domain pipeline stage; its JSON/CSV files are the disclosed records for those comparisons.
 
-The experiment used Python 3, NumPy, SciPy, PyTorch, `s3prl`/WavLM-compatible code, Whisper large-v3, and Montreal Forced Aligner. Exact package versions, model checksums, dataset manifests, and run-specific commands must be recorded alongside each frozen run; private hosts and credentials are intentionally omitted from this package.
+## Quick start: inspect and verify
 
 ```bash
-python -m pytest tests/test_event_strata.py
+git clone https://github.com/mysxs/partial-spoof-diagnostics.git
+cd partial-spoof-diagnostics
+python scripts/verify_manifest.py
+python -m pip install -r requirements.txt
+python -m pytest -q tests/test_event_strata.py
 ```
 
-## Data and model provenance
+The checksum command requires only Python's standard library. The tests cover event matching and duration/boundary strata; they do not run model inference. To recompute the PS localization table from verified official data and frozen experiment outputs, follow the exact layout and command in the [reproducibility guide](docs/REPRODUCIBILITY.md).
 
-Use the official publication/download pages cited by the paper. Do not commit raw datasets, speaker lists, model weights, cached features, predictions, credentials, or internal filesystem paths. Original code is released under the MIT license in `LICENSE`; third-party datasets and models retain their own licenses.
+## Data, weights, and scope
+
+The study uses PartialSpoof, HAD, LlamaPartialSpoof, WavLM, Whisper large-v3, and Montreal Forced Aligner components. Obtain the required third-party resources from their original providers. This release contains no audio, dataset labels, model weights, cached features, frozen predictions, or private execution paths. The published aggregate records can be inspected immediately; a full audit rerun requires the original frozen checkpoints/predictions and official data view. [Required inputs and limits](docs/REPRODUCIBILITY.md#what-is-and-is-not-released) are stated explicitly.
+
+Original code is released under the [MIT license](LICENSE). If you use it, see GitHub's **Cite this repository** control or [`CITATION.cff`](CITATION.cff). Reproducibility questions can be filed under [Issues](https://github.com/mysxs/partial-spoof-diagnostics/issues) with the command and integrity-check output, without uploading restricted data.
