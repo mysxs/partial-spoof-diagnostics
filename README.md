@@ -14,10 +14,19 @@ This directory contains the experiment-side code used for the ICASSP study. It d
 - `scripts/train_frame.py`, `scripts/train_units.py`: frame and aligned-unit training entry points.
 - `scripts/evaluate_event_strata.py`: localization summaries.
 - `tests/test_event_strata.py`: unit tests for event matching and duration bins.
+- `MATCHED_CONTROLS_SUMMARY.json`: per-seed raw counts, thresholds,
+  metrics, and input hashes for the 18 matched-control runs. Private checkpoint
+  paths are removed, but the numerical records are unchanged.
+- `MATCHED_CONTROLS_INTERACTION.json`: speaker-bootstrap interaction
+  contrasts and the stated limitations of the constructed controls.
+- `E4_summary_20260919.csv`: source-locked E4 comparison summary used
+  for the transfer and intervention tables.
+- `RECFPRF_SOURCE_CHECK.json`: reCFPRF source commit and SHA-256 records;
+  see `PROVENANCE.md`.
 
 ## Reproducing the reported PS audit
 
-Install the audit dependencies with `python -m pip install -r requirements.txt`. Training and feature extraction additionally require a compatible PyTorch/WavLM stack and separately obtained data and models. This initial release covers the PS localization audit and selected training entry points; it is not yet a complete end-to-end reproduction package for every experiment in the paper.
+Install the audit dependencies with `python -m pip install -r requirements.txt`. Training and feature extraction additionally require a compatible PyTorch/WavLM stack and separately obtained data and models. The release covers the PS localization audit, matched-control result records, the E4 summary, and selected training entry points. Raw data, checkpoints, forced-alignment models, and private paths are intentionally excluded, so the package is a reproducibility record and audit entry point rather than a turnkey end-to-end rerun of every experiment.
 
 Prepare a verified PS protocol view containing the official train/dev/eval lists and labels, and retain frozen checkpoints and predictions. Then run:
 

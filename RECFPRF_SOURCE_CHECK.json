@@ -1,0 +1,76 @@
+{
+  "adapter_sha256": "19bbf127c496a2d5b9c3ca3a238117e1ecad1166712bc32e47d066d2f416364d",
+  "notes": [
+    "Official SegmentEER main executed for the available 20ms branch, exact kernel parity required.",
+    "Unchanged official RangeEER.get_detcos_by_th called on utterance batches, combined by reference class duration; five thresholds, not a full RangeEER result.",
+    "No original benchmark samples or labels modified. Modern isolated pyannote runtime."
+  ],
+  "range_batch_utterances": 64,
+  "range_duration_checks": [
+    {
+      "genuine_threshold": -0.1251530647277832,
+      "integrated": [
+        0.00013789505172439798,
+        0.7637475744408021
+      ],
+      "official": [
+        0.00013789505172411072,
+        0.7637475744408019
+      ]
+    },
+    {
+      "genuine_threshold": -0.09325367212295532,
+      "integrated": [
+        0.0007641684116387182,
+        0.2924009710144372
+      ],
+      "official": [
+        0.0007641684116377799,
+        0.29240097101443707
+      ]
+    },
+    {
+      "genuine_threshold": 0.9848690330982208,
+      "integrated": [
+        0.13155678541695565,
+        0.002359066509692276
+      ],
+      "official": [
+        0.13155678541695434,
+        0.0023590665096922744
+      ]
+    },
+    {
+      "genuine_threshold": 1.0304797887802124,
+      "integrated": [
+        0.47828189278913646,
+        0.0008003200116524397
+      ],
+      "official": [
+        0.47828189278913547,
+        0.0008003200116524395
+      ]
+    },
+    {
+      "genuine_threshold": 1.055128574371338,
+      "integrated": [
+        0.8260672318246328,
+        0.00021941473242041644
+      ],
+      "official": [
+        0.8260672318246319,
+        0.00021941473242041622
+      ]
+    }
+  ],
+  "reference": "Reconstructed from untouched official 10ms labels, clipped to actual waveform duration; not original continuous RTTM.",
+  "segment20_kernel_eer": 0.017704054563277845,
+  "segment20_official_wrapper_eer": 0.017704054563277845,
+  "source_commit": "847347aaec6f65c3c6d2f17c63515b826b94feb3",
+  "source_hashes": {
+    "RangeEER.py": "8b9c65c20c89443dc36aa77c4862ce9e89f62a2fb48227096f37d44e22dee194",
+    "SegmentEER.py": "b708a7635542677b745f4f7111e3cda523f94ab17dc6d83d31028d4a8e5ef0f0",
+    "rttm_tool.py": "c63a260013edba82243f5b47356e22675d60362771333599dedebd51d3b6dd71"
+  },
+  "utterances": 24844
+}
