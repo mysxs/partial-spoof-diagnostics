@@ -1,0 +1,1291 @@
+{
+  "models": [
+    {
+      "split": "dev",
+      "arm": "Hard frame",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4105226397514343,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.253893697609516,
+      "frame_f1_pct": 93.97584451698296,
+      "frame_recall_pct": 94.74604876478195,
+      "event_precision_pct": 64.20099752582178,
+      "event_recall_pct": 77.63082913856967,
+      "event_f1_pct": 70.28008856215473,
+      "short_event_recall_pct": 62.80737437742835,
+      "matched_boundary_mae_ms": 19.96054442574967,
+      "reference_events": 84232,
+      "predicted_events": 101852,
+      "matched_events": 65390,
+      "short_reference_events": 38349,
+      "short_matched_events": 24086,
+      "tp": 1800931,
+      "fp": 131024,
+      "fn": 99867,
+      "tn": 2362824,
+      "identity": {
+        "checkpoint_sha256": "44b5c4424872804f7239af46d6344c08bb2cfc60ee4014c57dc9327e9f6680e2",
+        "predictions_sha256": "92d991b7aaaf2690b526a967a65bb561eb040106ad1fdf9b9d9741b6472b8398",
+        "history_sha256": "38404312b9b4b8882f5fe08a903060040e8e4f6999f84a2e4f6c27141212e21b",
+        "config_sha256": "bdff94517a81a2aa838bb75a2fecc791f26152cb12500d8ca0a6ec21f2c6752b",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Hard frame",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.5433493852615356,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.4769602655033385,
+      "frame_f1_pct": 93.72224233426776,
+      "frame_recall_pct": 94.52298455701236,
+      "event_precision_pct": 62.13045518535899,
+      "event_recall_pct": 77.02060974451516,
+      "event_f1_pct": 68.77885619477236,
+      "short_event_recall_pct": 60.62739575999374,
+      "matched_boundary_mae_ms": 21.57693137677659,
+      "reference_events": 84232,
+      "predicted_events": 104419,
+      "matched_events": 64876,
+      "short_reference_events": 38349,
+      "short_matched_events": 23250,
+      "tp": 1796691,
+      "fp": 136587,
+      "fn": 104107,
+      "tn": 2357261,
+      "identity": {
+        "checkpoint_sha256": "7df9f76b28838fd2427985aebf0b13b9978ad72fd79dcbbe7a437e0b2ca10156",
+        "predictions_sha256": "b120114e757f4c96a2dc14529f7deddf1b5d3843a018a350176b36838fea62b2",
+        "history_sha256": "b2148fd1d049866592ee3259f8fc8a764ebdfbc0a2a2227fb00148571ea22f31",
+        "config_sha256": "0a776a68ea291b417a9ca6b620f8c581ae29a1ebeab3c935609a763373e37f36",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Hard frame",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.47851884365081787,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.260012596245112,
+      "frame_f1_pct": 93.96891194954277,
+      "frame_recall_pct": 94.73999867424104,
+      "event_precision_pct": 64.07766013124522,
+      "event_recall_pct": 75.58291385696647,
+      "event_f1_pct": 69.35638494890733,
+      "short_event_recall_pct": 57.95457508670369,
+      "matched_boundary_mae_ms": 22.05709573548668,
+      "reference_events": 84232,
+      "predicted_events": 99356,
+      "matched_events": 63665,
+      "short_reference_events": 38349,
+      "short_matched_events": 22225,
+      "tp": 1800816,
+      "fp": 131177,
+      "fn": 99982,
+      "tn": 2362671,
+      "identity": {
+        "checkpoint_sha256": "7789a289f9a83f6a5fd282243f678e888a8c3e4dbac24188156608740eef2b01",
+        "predictions_sha256": "ce1691ceb7328ea8ae24e99ba1e9776cac6684ccd211d0e94ad36907a907be81",
+        "history_sha256": "c5fcd7d87d377d241fc09213731dbf33fcb5540442c8035eebff513bc2973a7a",
+        "config_sha256": "8f4bd3a62000d92e48ad941ac39b2d4f971be2d7de717f2458c9c922694b3141",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Soft frame",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.4666961431503296,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.518896751395036,
+      "frame_f1_pct": 93.674611913541,
+      "frame_recall_pct": 94.48110740857261,
+      "event_precision_pct": 63.62729511518439,
+      "event_recall_pct": 72.69565010922214,
+      "event_f1_pct": 67.85985404695543,
+      "short_event_recall_pct": 50.73144019400767,
+      "matched_boundary_mae_ms": 21.207192200280694,
+      "reference_events": 84232,
+      "predicted_events": 96237,
+      "matched_events": 61233,
+      "short_reference_events": 38349,
+      "short_matched_events": 19455,
+      "tp": 1795895,
+      "fp": 137633,
+      "fn": 104903,
+      "tn": 2356215,
+      "identity": {
+        "checkpoint_sha256": "ccba2a5b68575ddb6a5484589c983ae84a9c10c4c557bd8fd5c3a7f427c00498",
+        "predictions_sha256": "13008f1dafad0a29f52337edd8a149afaba2d231b3c0946a8083ca5f32164169",
+        "history_sha256": "cfd1e162ce5a8cad0519498381cb0432c4045be7c6d65abc9bc0bacc0f2b5c1f",
+        "config_sha256": "841663dbef4b40ac7a42b0c56f9e1b0dd844a09cd967685b84a9838b10a62fb4",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Soft frame",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.4874551296234131,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.785517225662885,
+      "frame_f1_pct": 93.37176318403965,
+      "frame_recall_pct": 94.2144825489084,
+      "event_precision_pct": 62.605162426053674,
+      "event_recall_pct": 72.6196694842815,
+      "event_f1_pct": 67.24158779364399,
+      "short_event_recall_pct": 50.74708597355863,
+      "matched_boundary_mae_ms": 22.11888374830032,
+      "reference_events": 84232,
+      "predicted_events": 97706,
+      "matched_events": 61169,
+      "short_reference_events": 38349,
+      "short_matched_events": 19461,
+      "tp": 1790827,
+      "fp": 144282,
+      "fn": 109971,
+      "tn": 2349566,
+      "identity": {
+        "checkpoint_sha256": "da5547913e7f44bf00e35fdf9612ab12fe1171f044e8e87f826427bfc84b5830",
+        "predictions_sha256": "4e57a3e1215c49f036a27656b6ad5a356f24e5b7e8319649fe91ac88ed74c687",
+        "history_sha256": "bd6864ed181c7150be226085f935fef8b89c09024db9daac6e32924f5a8a119b",
+        "config_sha256": "8cd0026051c51d9882e16b6708e8c86f192ec829d12981fb6f9e3aab3dcb286e",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Soft frame",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4542306661605835,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 5.389991514991961,
+      "frame_f1_pct": 93.82114796690283,
+      "frame_recall_pct": 94.6100006418357,
+      "event_precision_pct": 64.75181318911667,
+      "event_recall_pct": 73.34623421027638,
+      "event_f1_pct": 68.78159025628466,
+      "short_event_recall_pct": 51.97267203838431,
+      "matched_boundary_mae_ms": 21.85194477266119,
+      "reference_events": 84232,
+      "predicted_events": 95412,
+      "matched_events": 61781,
+      "short_reference_events": 38349,
+      "short_matched_events": 19931,
+      "tp": 1798345,
+      "fp": 134417,
+      "fn": 102453,
+      "tn": 2359431,
+      "identity": {
+        "checkpoint_sha256": "0c91be85cc80501dc899b97c130bf4c21103993410924c45b1cc57c647f4cfcc",
+        "predictions_sha256": "afd7faa0f4ae06c631ccfc3350b114dc7f89bb695b4606b8b593059ca8dc7e25",
+        "history_sha256": "f32396a5f09b06df63174a9c58263a76862c161a35eaad074f90570c9d96a7bc",
+        "config_sha256": "d85a8bb2976878998254478b65546654a39eb7d30648de23cd604546c1ae94ee",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Phone",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.33103686571121216,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 6.044103207002049,
+      "frame_f1_pct": 93.07825008338892,
+      "frame_recall_pct": 93.95585433065482,
+      "event_precision_pct": 74.12896557207601,
+      "event_recall_pct": 55.34238769113876,
+      "event_f1_pct": 63.37268976392939,
+      "short_event_recall_pct": 14.733109077159769,
+      "matched_boundary_mae_ms": 30.345267719232705,
+      "reference_events": 84232,
+      "predicted_events": 62885,
+      "matched_events": 46616,
+      "short_reference_events": 38349,
+      "short_matched_events": 5650,
+      "tp": 1785911,
+      "fp": 150731,
+      "fn": 114887,
+      "tn": 2343117,
+      "identity": {
+        "checkpoint_sha256": "a7b06d4d7549d55d96c2d6d7088a78283e8c935031bb08095065aecf707641e6",
+        "predictions_sha256": "0d2b6020e562b9641047752135fb555272822cf41a4eb41a222275afc6328014",
+        "history_sha256": "937dc85c739daf8eeada2fe9f9f2eb40bca0f01e9b2cd0ae4a0181e38e9c05c5",
+        "config_sha256": "08d27db0f82d48403869deb5789774f1e23f6d5f2283d6ef00cd96a1acbcc2d7",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Phone",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.44150233268737793,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 6.392481848511299,
+      "frame_f1_pct": 92.68330162351657,
+      "frame_recall_pct": 93.6075269439467,
+      "event_precision_pct": 76.23135939420106,
+      "event_recall_pct": 54.498290435938834,
+      "event_f1_pct": 63.558324679820004,
+      "short_event_recall_pct": 11.932514537536832,
+      "matched_boundary_mae_ms": 28.897070035938633,
+      "reference_events": 84232,
+      "predicted_events": 60218,
+      "matched_events": 45905,
+      "short_reference_events": 38349,
+      "short_matched_events": 4576,
+      "tp": 1779290,
+      "fp": 159417,
+      "fn": 121508,
+      "tn": 2334431,
+      "identity": {
+        "checkpoint_sha256": "c0045e76b44ffd1d39e5112bb44630559d3d84c0f56605e6b3bbee8fc65d8181",
+        "predictions_sha256": "74b089bc82187ff7154a0729e291de805f6f9f5caab1f0c3aadf8747a70ac58a",
+        "history_sha256": "43fd4e84a8b73c5106ac92ea9124e6ce67e79ef59a0862e7353d852aeda5546e",
+        "config_sha256": "1bac31628d45481574ad6a7fb464c1eb3d5fe4d3c48a25145f4491f9dbb98f74",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Phone",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4291280508041382,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 6.172988394067715,
+      "frame_f1_pct": 92.93215569798343,
+      "frame_recall_pct": 93.82696109739173,
+      "event_precision_pct": 76.85343441693601,
+      "event_recall_pct": 53.91656377623706,
+      "event_f1_pct": 63.373451944880514,
+      "short_event_recall_pct": 11.755195702625883,
+      "matched_boundary_mae_ms": 30.96201695474541,
+      "reference_events": 84232,
+      "predicted_events": 59093,
+      "matched_events": 45415,
+      "short_reference_events": 38349,
+      "short_matched_events": 4508,
+      "tp": 1783461,
+      "fp": 153941,
+      "fn": 117337,
+      "tn": 2339907,
+      "identity": {
+        "checkpoint_sha256": "56715562c71a112ee70feb91584cdbba9f981096298b377b87c36c41331e17f5",
+        "predictions_sha256": "5ed33e3f9594c91a94d85d9fa1424ef02e80d84433f1c9db8f48110e7ee9d1d6",
+        "history_sha256": "fd6a90638c731ab9394a061d4b7f4dcd616aef76b64316538a64639b245b878e",
+        "config_sha256": "9d809e3ff387d05618e33735bb9424f673195a2632aa97b42e249bd122251b0b",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Word",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.3631412982940674,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 6.968593903045795,
+      "frame_f1_pct": 92.03090773114833,
+      "frame_recall_pct": 93.03134788651924,
+      "event_precision_pct": 79.24307886294943,
+      "event_recall_pct": 50.73487510684775,
+      "event_f1_pct": 61.86260956420408,
+      "short_event_recall_pct": 9.327492242300973,
+      "matched_boundary_mae_ms": 40.93377793377219,
+      "reference_events": 84232,
+      "predicted_events": 53929,
+      "matched_events": 42735,
+      "short_reference_events": 38349,
+      "short_matched_events": 3577,
+      "tp": 1768338,
+      "fp": 173786,
+      "fn": 132460,
+      "tn": 2320062,
+      "identity": {
+        "checkpoint_sha256": "45027dc7260569f5c718dc00a7b6eb48ec5ded454f6307c768c5c2d49010c884",
+        "predictions_sha256": "198746698aa90bdcd8153d38490b89df53ef47068886acf4b9d1efc94922aec1",
+        "history_sha256": "0d86231e5620890f566860175ece0056d742bcfcb3e9929a2f41f3445360e95d",
+        "config_sha256": "e0dc5ebd97f6f19a3b5ff67e4c8d206a6e79069b8452b95ac754040772190697",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Word",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 7,
+      "threshold": 0.3315608501434326,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 6.987341480921123,
+      "frame_f1_pct": 92.00995148896331,
+      "frame_recall_pct": 93.01309239593056,
+      "event_precision_pct": 79.22996723264819,
+      "event_recall_pct": 50.5223667964669,
+      "event_f1_pct": 61.70040016238474,
+      "short_event_recall_pct": 9.163211557015828,
+      "matched_boundary_mae_ms": 43.18568474480084,
+      "reference_events": 84232,
+      "predicted_events": 53712,
+      "matched_events": 42556,
+      "short_reference_events": 38349,
+      "short_matched_events": 3514,
+      "tp": 1767991,
+      "fp": 174254,
+      "fn": 132807,
+      "tn": 2319594,
+      "identity": {
+        "checkpoint_sha256": "58a680b78543bf879308aef32e9cad6e5b0ee2b4cfa7c9adaa1f44d5b611bea2",
+        "predictions_sha256": "8876ee817b7e443ec736fc81f2b8db4e45d3dbad00b09231e0398e245b90fe87",
+        "history_sha256": "7be71b6ec3815cfd5e08ca4391cc5cd46f32e263f685122ef2008b787070970a",
+        "config_sha256": "9ac3c898bae997383f2e4f5777d9431b6c38dd4a08ed3612739bd324c9bd5589",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "dev",
+      "arm": "Word",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 6,
+      "threshold": 0.4165767431259155,
+      "utterances": 24844,
+      "frames": 4394646,
+      "frame_eer_pct": 7.143260558522672,
+      "frame_f1_pct": 91.83299600934448,
+      "frame_recall_pct": 92.85684223152592,
+      "event_precision_pct": 80.25988594933159,
+      "event_recall_pct": 50.962816981669675,
+      "event_f1_pct": 62.34088747213489,
+      "short_event_recall_pct": 8.672977131085556,
+      "matched_boundary_mae_ms": 40.7108579681727,
+      "reference_events": 84232,
+      "predicted_events": 53485,
+      "matched_events": 42927,
+      "short_reference_events": 38349,
+      "short_matched_events": 3326,
+      "tp": 1765021,
+      "fp": 178161,
+      "fn": 135777,
+      "tn": 2315687,
+      "identity": {
+        "checkpoint_sha256": "a18aba281c678ba6875fc510b00f61fe21654f5bd9fc63f9163a6c67eba3c3c2",
+        "predictions_sha256": "b2c5a301b691fb0b8ded286193889d798858742afb9860ff2c49395a29cfd0bf",
+        "history_sha256": "aca4fb56938210ee1399dbe029e9d3a9a8049d72d009f6d88c23a07fb8c826ab",
+        "config_sha256": "08391f0e75a6ed96ad97963946940320e1845e2a8fe6b16af0594917bdb80181",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "b98c089300307d2c742adfe8a71802bc6c1bc9831dd75ff1d422c44e5086c8db",
+        "labels10": "17d20929eb812227e23e9f7f3ef6ecad2799cdf7ed665657be713cd28f460cfc",
+        "labels20": "ccb30d40735ef24250b5c3c3b5a2860ab3386378a0ea5b26af117b3c8bf89d19"
+      },
+      "previous_dev_event_metrics_verified": true
+    },
+    {
+      "split": "eval",
+      "arm": "Hard frame",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4105226397514343,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.099817118801592,
+      "frame_f1_pct": 85.95702452492024,
+      "frame_recall_pct": 82.43729368862108,
+      "event_precision_pct": 47.67727353036146,
+      "event_recall_pct": 67.39640613360089,
+      "event_f1_pct": 55.84729539506197,
+      "short_event_recall_pct": 62.85218277668944,
+      "matched_boundary_mae_ms": 30.85771879833614,
+      "reference_events": 232229,
+      "predicted_events": 328278,
+      "matched_events": 156514,
+      "short_reference_events": 125574,
+      "short_matched_events": 78926,
+      "tp": 3905616,
+      "fp": 444072,
+      "fn": 832065,
+      "tn": 7035773,
+      "identity": {
+        "checkpoint_sha256": "44b5c4424872804f7239af46d6344c08bb2cfc60ee4014c57dc9327e9f6680e2",
+        "predictions_sha256": "81a1a22107f3b63e020d52fba3e58497dfb63d2a3d5183ddd5279603b1e17239",
+        "history_sha256": "38404312b9b4b8882f5fe08a903060040e8e4f6999f84a2e4f6c27141212e21b",
+        "config_sha256": "bdff94517a81a2aa838bb75a2fecc791f26152cb12500d8ca0a6ec21f2c6752b",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Hard frame",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.5433493852615356,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.135994747583553,
+      "frame_f1_pct": 85.94142006269799,
+      "frame_recall_pct": 82.75219458633876,
+      "event_precision_pct": 46.4119485726012,
+      "event_recall_pct": 67.19918700937437,
+      "event_f1_pct": 54.903864759793834,
+      "short_event_recall_pct": 60.72037205153933,
+      "matched_boundary_mae_ms": 32.086782949728715,
+      "reference_events": 232229,
+      "predicted_events": 336241,
+      "matched_events": 156056,
+      "short_reference_events": 125574,
+      "short_matched_events": 76249,
+      "tp": 3920535,
+      "fp": 465522,
+      "fn": 817146,
+      "tn": 7014323,
+      "identity": {
+        "checkpoint_sha256": "7df9f76b28838fd2427985aebf0b13b9978ad72fd79dcbbe7a437e0b2ca10156",
+        "predictions_sha256": "0720f8882b48ad9e77ff75de22173f36c9d6edcdb1ba0e9af4bbdc88ee964f92",
+        "history_sha256": "b2148fd1d049866592ee3259f8fc8a764ebdfbc0a2a2227fb00148571ea22f31",
+        "config_sha256": "0a776a68ea291b417a9ca6b620f8c581ae29a1ebeab3c935609a763373e37f36",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Hard frame",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.47851884365081787,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.132981528552556,
+      "frame_f1_pct": 85.93803717530783,
+      "frame_recall_pct": 82.07173509571454,
+      "event_precision_pct": 48.3257468489957,
+      "event_recall_pct": 65.69420701118293,
+      "event_f1_pct": 55.68712334967386,
+      "short_event_recall_pct": 59.29889945370857,
+      "matched_boundary_mae_ms": 32.66906352215083,
+      "reference_events": 232229,
+      "predicted_events": 315693,
+      "matched_events": 152561,
+      "short_reference_events": 125574,
+      "short_matched_events": 74464,
+      "tp": 3888297,
+      "fp": 423093,
+      "fn": 849384,
+      "tn": 7056752,
+      "identity": {
+        "checkpoint_sha256": "7789a289f9a83f6a5fd282243f678e888a8c3e4dbac24188156608740eef2b01",
+        "predictions_sha256": "39254c3bca5c8a670d1623aacd7000bfd68943546be30a2fe9fc9c487cdd3f23",
+        "history_sha256": "c5fcd7d87d377d241fc09213731dbf33fcb5540442c8035eebff513bc2973a7a",
+        "config_sha256": "8f4bd3a62000d92e48ad941ac39b2d4f971be2d7de717f2458c9c922694b3141",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Soft frame",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.4666961431503296,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.434286920818284,
+      "frame_f1_pct": 85.52970242621141,
+      "frame_recall_pct": 82.37652556176745,
+      "event_precision_pct": 46.56907216494845,
+      "event_recall_pct": 63.21734150342981,
+      "event_f1_pct": 53.63091552370045,
+      "short_event_recall_pct": 53.442591619284244,
+      "matched_boundary_mae_ms": 32.89995844943303,
+      "reference_events": 232229,
+      "predicted_events": 315250,
+      "matched_events": 146809,
+      "short_reference_events": 125574,
+      "short_matched_events": 67110,
+      "tp": 3902737,
+      "fp": 485621,
+      "fn": 834944,
+      "tn": 6994224,
+      "identity": {
+        "checkpoint_sha256": "ccba2a5b68575ddb6a5484589c983ae84a9c10c4c557bd8fd5c3a7f427c00498",
+        "predictions_sha256": "7fdab07f25556cb547b78462267a9b5fed5d5742b4e84e6f0692a9e360e17d27",
+        "history_sha256": "cfd1e162ce5a8cad0519498381cb0432c4045be7c6d65abc9bc0bacc0f2b5c1f",
+        "config_sha256": "841663dbef4b40ac7a42b0c56f9e1b0dd844a09cd967685b84a9838b10a62fb4",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Soft frame",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 5,
+      "threshold": 0.4874551296234131,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.179669012781018,
+      "frame_f1_pct": 85.79798485297235,
+      "frame_recall_pct": 82.76023649544999,
+      "event_precision_pct": 47.06358374165376,
+      "event_recall_pct": 63.86067200909447,
+      "event_f1_pct": 54.1903493434623,
+      "short_event_recall_pct": 53.83439246977878,
+      "matched_boundary_mae_ms": 32.80843947865396,
+      "reference_events": 232229,
+      "predicted_events": 315112,
+      "matched_events": 148303,
+      "short_reference_events": 125574,
+      "short_matched_events": 67602,
+      "tp": 3920916,
+      "fp": 481282,
+      "fn": 816765,
+      "tn": 6998563,
+      "identity": {
+        "checkpoint_sha256": "da5547913e7f44bf00e35fdf9612ab12fe1171f044e8e87f826427bfc84b5830",
+        "predictions_sha256": "ea9fbc26c9d7095d8695ca796730cdd10e86935be3adcebbb163f5da2719bb6e",
+        "history_sha256": "bd6864ed181c7150be226085f935fef8b89c09024db9daac6e32924f5a8a119b",
+        "config_sha256": "8cd0026051c51d9882e16b6708e8c86f192ec829d12981fb6f9e3aab3dcb286e",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Soft frame",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4542306661605835,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.36446150079802,
+      "frame_f1_pct": 85.64386434489603,
+      "frame_recall_pct": 81.66362403884939,
+      "event_precision_pct": 48.09224168519465,
+      "event_recall_pct": 63.616516455739806,
+      "event_f1_pct": 54.77566728831972,
+      "short_event_recall_pct": 54.67373819421218,
+      "matched_boundary_mae_ms": 32.80733876646736,
+      "reference_events": 232229,
+      "predicted_events": 307193,
+      "matched_events": 147736,
+      "short_reference_events": 125574,
+      "short_matched_events": 68656,
+      "tp": 3868962,
+      "fp": 428358,
+      "fn": 868719,
+      "tn": 7051487,
+      "identity": {
+        "checkpoint_sha256": "0c91be85cc80501dc899b97c130bf4c21103993410924c45b1cc57c647f4cfcc",
+        "predictions_sha256": "0f3c5d88f4fb9e4dcb772a616890aa014f6b293e4f870d88c0505d21f2a0ed8d",
+        "history_sha256": "f32396a5f09b06df63174a9c58263a76862c161a35eaad074f90570c9d96a7bc",
+        "config_sha256": "d85a8bb2976878998254478b65546654a39eb7d30648de23cd604546c1ae94ee",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Phone",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.33103686571121216,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.091501126152359,
+      "frame_f1_pct": 86.30233996289573,
+      "frame_recall_pct": 84.01051062745677,
+      "event_precision_pct": 56.13308909970747,
+      "event_recall_pct": 44.20593465932334,
+      "event_f1_pct": 49.460630091974735,
+      "short_event_recall_pct": 17.2766655517862,
+      "matched_boundary_mae_ms": 41.30173681802961,
+      "reference_events": 232229,
+      "predicted_events": 182885,
+      "matched_events": 102659,
+      "short_reference_events": 125574,
+      "short_matched_events": 21695,
+      "tp": 3980150,
+      "fp": 505905,
+      "fn": 757531,
+      "tn": 6973940,
+      "identity": {
+        "checkpoint_sha256": "a7b06d4d7549d55d96c2d6d7088a78283e8c935031bb08095065aecf707641e6",
+        "predictions_sha256": "46937766157b865ee62e20a0004230537d754bc2d7076dd911f080c8ffbfc7be",
+        "history_sha256": "937dc85c739daf8eeada2fe9f9f2eb40bca0f01e9b2cd0ae4a0181e38e9c05c5",
+        "config_sha256": "08d27db0f82d48403869deb5789774f1e23f6d5f2283d6ef00cd96a1acbcc2d7",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Phone",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.44150233268737793,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.123709326615142,
+      "frame_f1_pct": 86.10216324429544,
+      "frame_recall_pct": 84.66251737928324,
+      "event_precision_pct": 58.10773363494981,
+      "event_recall_pct": 44.24468950906218,
+      "event_f1_pct": 50.23737697223349,
+      "short_event_recall_pct": 15.015847229522034,
+      "matched_boundary_mae_ms": 41.09752892974217,
+      "reference_events": 232229,
+      "predicted_events": 176825,
+      "matched_events": 102749,
+      "short_reference_events": 125574,
+      "short_matched_events": 18856,
+      "tp": 4011040,
+      "fp": 568211,
+      "fn": 726641,
+      "tn": 6911634,
+      "identity": {
+        "checkpoint_sha256": "c0045e76b44ffd1d39e5112bb44630559d3d84c0f56605e6b3bbee8fc65d8181",
+        "predictions_sha256": "a4d399fff21a5f07c88984020246ad677a492aafb862ea54c86e83ad7136f99c",
+        "history_sha256": "43fd4e84a8b73c5106ac92ea9124e6ce67e79ef59a0862e7353d852aeda5546e",
+        "config_sha256": "1bac31628d45481574ad6a7fb464c1eb3d5fe4d3c48a25145f4491f9dbb98f74",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Phone",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.4291280508041382,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 11.495182798278018,
+      "frame_f1_pct": 85.6864816359601,
+      "frame_recall_pct": 83.03919153695658,
+      "event_precision_pct": 59.59163952614438,
+      "event_recall_pct": 43.01917503843189,
+      "event_f1_pct": 49.967114723351045,
+      "short_event_recall_pct": 14.790482106168474,
+      "matched_boundary_mae_ms": 43.2425953174798,
+      "reference_events": 232229,
+      "predicted_events": 167646,
+      "matched_events": 99903,
+      "short_reference_events": 125574,
+      "short_matched_events": 18573,
+      "tp": 3934132,
+      "fp": 510807,
+      "fn": 803549,
+      "tn": 6969038,
+      "identity": {
+        "checkpoint_sha256": "56715562c71a112ee70feb91584cdbba9f981096298b377b87c36c41331e17f5",
+        "predictions_sha256": "e05a4796d2008f9015c0d4465664378c39dcaf4a53fcb92e84643d28c35f6f40",
+        "history_sha256": "fd6a90638c731ab9394a061d4b7f4dcd616aef76b64316538a64639b245b878e",
+        "config_sha256": "9d809e3ff387d05618e33735bb9424f673195a2632aa97b42e249bd122251b0b",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Word",
+      "seed": 1,
+      "layer": "last",
+      "selected_epoch": 8,
+      "threshold": 0.3631412982940674,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 12.69602332637689,
+      "frame_f1_pct": 84.42045326112115,
+      "frame_recall_pct": 82.14084063490134,
+      "event_precision_pct": 60.50926172353223,
+      "event_recall_pct": 39.16091444221006,
+      "event_f1_pct": 47.548787660937194,
+      "short_event_recall_pct": 11.96585280392438,
+      "matched_boundary_mae_ms": 54.07288081548047,
+      "reference_events": 232229,
+      "predicted_events": 150296,
+      "matched_events": 90943,
+      "short_reference_events": 125574,
+      "short_matched_events": 15026,
+      "tp": 3891571,
+      "fp": 590246,
+      "fn": 846110,
+      "tn": 6889599,
+      "identity": {
+        "checkpoint_sha256": "45027dc7260569f5c718dc00a7b6eb48ec5ded454f6307c768c5c2d49010c884",
+        "predictions_sha256": "ccb923e4833c44e04e5f8510fd602f3ef67192d2f382163441dedc8ff569a8f5",
+        "history_sha256": "0d86231e5620890f566860175ece0056d742bcfcb3e9929a2f41f3445360e95d",
+        "config_sha256": "e0dc5ebd97f6f19a3b5ff67e4c8d206a6e79069b8452b95ac754040772190697",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Word",
+      "seed": 2,
+      "layer": "last",
+      "selected_epoch": 7,
+      "threshold": 0.3315608501434326,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 12.331474102482709,
+      "frame_f1_pct": 84.98147573770036,
+      "frame_recall_pct": 83.3067274896727,
+      "event_precision_pct": 61.548301984848784,
+      "event_recall_pct": 39.77797777194063,
+      "event_f1_pct": 48.32442272884211,
+      "short_event_recall_pct": 11.696688805007406,
+      "matched_boundary_mae_ms": 55.515068849077544,
+      "reference_events": 232229,
+      "predicted_events": 150087,
+      "matched_events": 92376,
+      "short_reference_events": 125574,
+      "short_matched_events": 14688,
+      "tp": 3946807,
+      "fp": 604141,
+      "fn": 790874,
+      "tn": 6875704,
+      "identity": {
+        "checkpoint_sha256": "58a680b78543bf879308aef32e9cad6e5b0ee2b4cfa7c9adaa1f44d5b611bea2",
+        "predictions_sha256": "7178db33af3b830238ad4ef09412881b2496e7ca14879fa017e4991e9fee5f87",
+        "history_sha256": "7be71b6ec3815cfd5e08ca4391cc5cd46f32e263f685122ef2008b787070970a",
+        "config_sha256": "9ac3c898bae997383f2e4f5777d9431b6c38dd4a08ed3612739bd324c9bd5589",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Word",
+      "seed": 3,
+      "layer": "last",
+      "selected_epoch": 6,
+      "threshold": 0.4165767431259155,
+      "utterances": 71237,
+      "frames": 12217526,
+      "frame_eer_pct": 12.515577402689942,
+      "frame_f1_pct": 84.46931912581411,
+      "frame_recall_pct": 82.52332734095015,
+      "event_precision_pct": 61.88135277526475,
+      "event_recall_pct": 40.057443299501784,
+      "event_f1_pct": 48.63327556416429,
+      "short_event_recall_pct": 11.527864048290251,
+      "matched_boundary_mae_ms": 52.84181671596198,
+      "reference_events": 232229,
+      "predicted_events": 150328,
+      "matched_events": 93025,
+      "short_reference_events": 125574,
+      "short_matched_events": 14476,
+      "tp": 3909692,
+      "fp": 609697,
+      "fn": 827989,
+      "tn": 6870148,
+      "identity": {
+        "checkpoint_sha256": "a18aba281c678ba6875fc510b00f61fe21654f5bd9fc63f9163a6c67eba3c3c2",
+        "predictions_sha256": "193cb84a30ee768d96621a535444c969aa60afeec2ea87ca4739ad9543695e28",
+        "history_sha256": "aca4fb56938210ee1399dbe029e9d3a9a8049d72d009f6d88c23a07fb8c826ab",
+        "config_sha256": "08391f0e75a6ed96ad97963946940320e1845e2a8fe6b16af0594917bdb80181",
+        "script_sha256": "beb1493e071bd31ddbf798e458e1612b429ab16745c6287cfe2047f74882cb69",
+        "matching_code_sha256": "e21ff9b67caebb8fc9f7f2bbd92363814c464f3b402fa83a44a63b25ee5134fa",
+        "official_metric_sha256": "5f65dd694fd5219eed26d6dc7a0326963da70f838e3c82b127bbbb8eeccfabcf",
+        "ids": "285e3a69ad9963f635ba8358426826ffbb5b3a328332e77a59cdd46655cbdf2e",
+        "labels10": "990145dc0611e977bc1e033da893a53162eddc10ed39ee17cce8d41f6c0f98ea",
+        "labels20": "4cc2c02eb4fdc6281a10b2fd0cce62fec188b19fe2989cbc39f6f45f041e0bf2"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "split": "dev",
+      "arm": "Hard frame",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 5.330288853119322,
+        "sd": 0.12705800894933722
+      },
+      "frame_f1_pct": {
+        "mean": 93.8889996002645,
+        "sd": 0.14445762162259862
+      },
+      "frame_recall_pct": {
+        "mean": 94.66967733201179,
+        "sd": 0.12707568050835177
+      },
+      "event_precision_pct": {
+        "mean": 63.469704280808664,
+        "sd": 1.161462066953678
+      },
+      "event_recall_pct": {
+        "mean": 76.74478424668376,
+        "sd": 1.0514509161612944
+      },
+      "event_f1_pct": {
+        "mean": 69.47177656861147,
+        "sd": 0.7572391132545775
+      },
+      "short_event_recall_pct": {
+        "mean": 60.4631150747086,
+        "sd": 2.4305670833537514
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 21.19819051267098,
+        "sd": 1.098392156835431
+      }
+    },
+    {
+      "split": "dev",
+      "arm": "Soft frame",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 5.564801830683294,
+        "sd": 0.20171912199586045
+      },
+      "frame_f1_pct": {
+        "mean": 93.62250768816116,
+        "sd": 0.22917855155766895
+      },
+      "frame_recall_pct": {
+        "mean": 94.4351968664389,
+        "sd": 0.2017163202804082
+      },
+      "event_precision_pct": {
+        "mean": 63.66142357678491,
+        "sd": 1.0737322471445823
+      },
+      "event_recall_pct": {
+        "mean": 72.88718460126,
+        "sd": 0.3993597018918592
+      },
+      "event_f1_pct": {
+        "mean": 67.96101069896136,
+        "sd": 0.7749686428615158
+      },
+      "short_event_recall_pct": {
+        "mean": 51.150399401983535,
+        "sd": 0.7121519599316903
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 21.726006907080734,
+        "sd": 0.4687116695505096
+      }
+    },
+    {
+      "split": "dev",
+      "arm": "Phone",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 6.203191149860354,
+        "sd": 0.17614219911213758
+      },
+      "frame_f1_pct": {
+        "mean": 92.89790246829631,
+        "sd": 0.19968984525229383
+      },
+      "frame_recall_pct": {
+        "mean": 93.79678079066441,
+        "sd": 0.17611396954342776
+      },
+      "event_precision_pct": {
+        "mean": 75.73791979440436,
+        "sd": 1.4276885516942555
+      },
+      "event_recall_pct": {
+        "mean": 54.58574730110489,
+        "sd": 0.7169239754150409
+      },
+      "event_f1_pct": {
+        "mean": 63.4348221295433,
+        "sd": 0.10695702489125039
+      },
+      "short_event_recall_pct": {
+        "mean": 12.806939772440828,
+        "sd": 1.6704659934086148
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 30.068118236638917,
+        "sd": 1.0600048684552836
+      }
+    },
+    {
+      "split": "dev",
+      "arm": "Word",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 7.0330653141631965,
+        "sd": 0.09589114572592855
+      },
+      "frame_f1_pct": {
+        "mean": 91.95795174315204,
+        "sd": 0.10872093901437895
+      },
+      "frame_recall_pct": {
+        "mean": 92.96709417132524,
+        "sd": 0.09591628332193293
+      },
+      "event_precision_pct": {
+        "mean": 79.5776440149764,
+        "sd": 0.5908752164855264
+      },
+      "event_recall_pct": {
+        "mean": 50.740019628328106,
+        "sd": 0.2202701545539856
+      },
+      "event_f1_pct": {
+        "mean": 61.9679657329079,
+        "sd": 0.33298789797935197
+      },
+      "short_event_recall_pct": {
+        "mean": 9.05456031013412,
+        "sd": 0.3405162665557183
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 41.61010688224857,
+        "sd": 1.3690352546553677
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Hard frame",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 11.1229311316459,
+        "sd": 0.020073939936079043
+      },
+      "frame_f1_pct": {
+        "mean": 85.94549392097535,
+        "sd": 0.010128035459756149
+      },
+      "frame_recall_pct": {
+        "mean": 82.4204077902248,
+        "sd": 0.3405438734856775
+      },
+      "event_precision_pct": {
+        "mean": 47.47165631731945,
+        "sd": 0.9733266612021956
+      },
+      "event_recall_pct": {
+        "mean": 66.76326671805273,
+        "sd": 0.9310694594817197
+      },
+      "event_f1_pct": {
+        "mean": 55.47942783484322,
+        "sd": 0.5048449376305392
+      },
+      "short_event_recall_pct": {
+        "mean": 60.957151427312446,
+        "sd": 1.7884361738505288
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 31.87118842340523,
+        "sd": 0.9247178904716367
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Soft frame",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 11.326139144799107,
+        "sd": 0.13156375640843881
+      },
+      "frame_f1_pct": {
+        "mean": 85.65718387469326,
+        "sd": 0.1346362600962254
+      },
+      "frame_recall_pct": {
+        "mean": 82.2667953653556,
+        "sd": 0.5564802395380579
+      },
+      "event_precision_pct": {
+        "mean": 47.241632530598956,
+        "sd": 0.7770375636257215
+      },
+      "event_recall_pct": {
+        "mean": 63.5648433227547,
+        "sd": 0.32476317430407803
+      },
+      "event_f1_pct": {
+        "mean": 54.19897738516082,
+        "sd": 0.5724246526639064
+      },
+      "short_event_recall_pct": {
+        "mean": 53.983574094425066,
+        "sd": 0.628984769361131
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 32.838578898184785,
+        "sd": 0.053159099648192966
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Phone",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 11.236797750348506,
+        "sd": 0.22434675569175208
+      },
+      "frame_f1_pct": {
+        "mean": 86.03032828105043,
+        "sd": 0.3141505469871023
+      },
+      "frame_recall_pct": {
+        "mean": 83.90407318123219,
+        "sd": 0.8168802819633365
+      },
+      "event_precision_pct": {
+        "mean": 57.944154086933885,
+        "sd": 1.7350681440360058
+      },
+      "event_recall_pct": {
+        "mean": 43.823266402272466,
+        "sd": 0.696633099735307
+      },
+      "event_f1_pct": {
+        "mean": 49.88837392918642,
+        "sd": 0.39431461233028625
+      },
+      "short_event_recall_pct": {
+        "mean": 15.694331629158903,
+        "sd": 1.3749664874930065
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 41.880620355083856,
+        "sd": 1.1839159869073344
+      }
+    },
+    {
+      "split": "eval",
+      "arm": "Word",
+      "layer": "last",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "frame_eer_pct": {
+        "mean": 12.514358277183181,
+        "sd": 0.18227766967106387
+      },
+      "frame_f1_pct": {
+        "mean": 84.62374937487854,
+        "sd": 0.31076209739339977
+      },
+      "frame_recall_pct": {
+        "mean": 82.65696515517473,
+        "sd": 0.5943209053829464
+      },
+      "event_precision_pct": {
+        "mean": 61.31297216121526,
+        "sd": 0.7156769927695441
+      },
+      "event_recall_pct": {
+        "mean": 39.66544517121749,
+        "sd": 0.4587359672604029
+      },
+      "event_f1_pct": {
+        "mean": 48.168828651314534,
+        "sd": 0.5587357521966183
+      },
+      "short_event_recall_pct": {
+        "mean": 11.730135219074013,
+        "sd": 0.22090163982170707
+      },
+      "matched_boundary_mae_ms": {
+        "mean": 54.14325546017333,
+        "sd": 1.3380148297995278
+      }
+    }
+  ],
+  "scope": "Frozen prediction audit; no retraining, threshold changes or model selection. Dev diagnostics and retrospective PS eval are separate. Event IoU >= .5 on original 10ms references; scores on 20ms grid. Boundary MAE conditional on matched events only."
+}

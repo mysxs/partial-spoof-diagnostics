@@ -1,0 +1,227 @@
+{
+  "speakers": 10,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "bootstrap_draws": 2000,
+  "contrasts": {
+    "frame:augmentation-minus-original:genuine_fpr": {
+      "estimate": -0.006708751659717207,
+      "paired_speaker_seed_95ci": [
+        -0.014532097459977753,
+        -0.0018336539234770227
+      ]
+    },
+    "frame:consistency-minus-augmentation:genuine_fpr": {
+      "estimate": 0.011926669617275037,
+      "paired_speaker_seed_95ci": [
+        0.0007461068037632366,
+        0.03893549743738949
+      ]
+    },
+    "phone:augmentation-minus-original:genuine_fpr": {
+      "estimate": -0.0012928323510913373,
+      "paired_speaker_seed_95ci": [
+        -0.006242763481089539,
+        0.004916035074290347
+      ]
+    },
+    "phone:consistency-minus-augmentation:genuine_fpr": {
+      "estimate": -1.5529517730827197e-05,
+      "paired_speaker_seed_95ci": [
+        -0.00850195352310578,
+        0.007554964268016642
+      ]
+    },
+    "interaction:consistency-minus-augmentation:genuine_fpr": {
+      "estimate": -0.011942199135005865,
+      "paired_speaker_seed_95ci": [
+        -0.037998583997298094,
+        0.004205413911691204
+      ]
+    },
+    "frame:augmentation-minus-original:gg_raw_fpr": {
+      "estimate": -0.20319985712843688,
+      "paired_speaker_seed_95ci": [
+        -0.24087137079384838,
+        -0.17671024666420768
+      ]
+    },
+    "frame:consistency-minus-augmentation:gg_raw_fpr": {
+      "estimate": 0.0158944613975013,
+      "paired_speaker_seed_95ci": [
+        0.00048570413174740156,
+        0.03712666238319535
+      ]
+    },
+    "phone:augmentation-minus-original:gg_raw_fpr": {
+      "estimate": -0.22786073128498993,
+      "paired_speaker_seed_95ci": [
+        -0.2867751515785597,
+        -0.1875198111969349
+      ]
+    },
+    "phone:consistency-minus-augmentation:gg_raw_fpr": {
+      "estimate": -0.007652169861864941,
+      "paired_speaker_seed_95ci": [
+        -0.0256481361143535,
+        0.0062204766020069946
+      ]
+    },
+    "interaction:consistency-minus-augmentation:gg_raw_fpr": {
+      "estimate": -0.023546631259366242,
+      "paired_speaker_seed_95ci": [
+        -0.05143506458742727,
+        -0.002171813412879042
+      ]
+    },
+    "frame:augmentation-minus-original:gg_minus_genuine_fpr": {
+      "estimate": -0.19649110546871967,
+      "paired_speaker_seed_95ci": [
+        -0.22908894007984465,
+        -0.17129580151179105
+      ]
+    },
+    "frame:consistency-minus-augmentation:gg_minus_genuine_fpr": {
+      "estimate": 0.003967791780226264,
+      "paired_speaker_seed_95ci": [
+        -0.004748847418282379,
+        0.012693604616339896
+      ]
+    },
+    "phone:augmentation-minus-original:gg_minus_genuine_fpr": {
+      "estimate": -0.22656789893389856,
+      "paired_speaker_seed_95ci": [
+        -0.28318961530097186,
+        -0.18649205592274073
+      ]
+    },
+    "phone:consistency-minus-augmentation:gg_minus_genuine_fpr": {
+      "estimate": -0.007636640344134114,
+      "paired_speaker_seed_95ci": [
+        -0.01923776699894856,
+        0.00522373689174585
+      ]
+    },
+    "interaction:consistency-minus-augmentation:gg_minus_genuine_fpr": {
+      "estimate": -0.011604432124360377,
+      "paired_speaker_seed_95ci": [
+        -0.029690851511758497,
+        0.004236689645283935
+      ]
+    },
+    "frame:augmentation-minus-original:gf_raw_fnr_core": {
+      "estimate": 0.058398647610265864,
+      "paired_speaker_seed_95ci": [
+        0.0170566007923378,
+        0.09864805017243623
+      ]
+    },
+    "frame:consistency-minus-augmentation:gf_raw_fnr_core": {
+      "estimate": -0.007325444393217556,
+      "paired_speaker_seed_95ci": [
+        -0.031505626168634664,
+        0.011875780226656335
+      ]
+    },
+    "phone:augmentation-minus-original:gf_raw_fnr_core": {
+      "estimate": 0.05819374007479125,
+      "paired_speaker_seed_95ci": [
+        0.02058513536243103,
+        0.0913060573764474
+      ]
+    },
+    "phone:consistency-minus-augmentation:gf_raw_fnr_core": {
+      "estimate": 0.011628502638184518,
+      "paired_speaker_seed_95ci": [
+        -0.04415257877714561,
+        0.0635301774834879
+      ]
+    },
+    "interaction:consistency-minus-augmentation:gf_raw_fnr_core": {
+      "estimate": 0.018953947031402074,
+      "paired_speaker_seed_95ci": [
+        -0.05354227502320783,
+        0.09466943633670762
+      ]
+    },
+    "frame:augmentation-minus-original:gf_smooth50_fnr_core": {
+      "estimate": 0.03801034783054147,
+      "paired_speaker_seed_95ci": [
+        0.010420874698603979,
+        0.06226358107993088
+      ]
+    },
+    "frame:consistency-minus-augmentation:gf_smooth50_fnr_core": {
+      "estimate": -0.013318989805850112,
+      "paired_speaker_seed_95ci": [
+        -0.029486192946150423,
+        0.0024398968451037452
+      ]
+    },
+    "phone:augmentation-minus-original:gf_smooth50_fnr_core": {
+      "estimate": 0.020439526663593055,
+      "paired_speaker_seed_95ci": [
+        -0.024441627415168688,
+        0.0628780868107074
+      ]
+    },
+    "phone:consistency-minus-augmentation:gf_smooth50_fnr_core": {
+      "estimate": 0.011269914451103952,
+      "paired_speaker_seed_95ci": [
+        -0.045485790338674136,
+        0.06381031470589822
+      ]
+    },
+    "interaction:consistency-minus-augmentation:gf_smooth50_fnr_core": {
+      "estimate": 0.024588904256954064,
+      "paired_speaker_seed_95ci": [
+        -0.04309531521420873,
+        0.08646163695585503
+      ]
+    },
+    "frame:augmentation-minus-original:smooth50_minus_raw_fnr_core": {
+      "estimate": -0.020388299779724395,
+      "paired_speaker_seed_95ci": [
+        -0.0644295171944862,
+        0.02461610178799405
+      ]
+    },
+    "frame:consistency-minus-augmentation:smooth50_minus_raw_fnr_core": {
+      "estimate": -0.005993545412632556,
+      "paired_speaker_seed_95ci": [
+        -0.02582028829678071,
+        0.016317305929422467
+      ]
+    },
+    "phone:augmentation-minus-original:smooth50_minus_raw_fnr_core": {
+      "estimate": -0.037754213411198195,
+      "paired_speaker_seed_95ci": [
+        -0.09348570289054232,
+        0.012805907889651526
+      ]
+    },
+    "phone:consistency-minus-augmentation:smooth50_minus_raw_fnr_core": {
+      "estimate": -0.0003585881870805663,
+      "paired_speaker_seed_95ci": [
+        -0.018179481803472775,
+        0.017006163170930868
+      ]
+    },
+    "interaction:consistency-minus-augmentation:smooth50_minus_raw_fnr_core": {
+      "estimate": 0.00563495722555199,
+      "paired_speaker_seed_95ci": [
+        -0.02178840251223808,
+        0.03449626283473817
+      ]
+    }
+  },
+  "limitations": [
+    "Exploratory paired intervals; few speakers and three seeds limit precision.",
+    "All comparisons preserve the same speaker and seed draws across conditions.",
+    "Multiple contrasts are not multiplicity-adjusted; do not select only favorable comparisons.",
+    "Negative interaction means a larger reduction for phone models for the named error contrast; examine absolute error rates too."
+  ]
+}
