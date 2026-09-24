@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE) [![Release: research audit](https://img.shields.io/badge/release-research%20audit-0969da)](docs/REPRODUCIBILITY.md)
 
-**Code and result records for _Separating Boundary Artifacts from Synthetic Content in Partial Speech Spoofing: A Controlled Study_.** This repository exposes the localization audit, selected training entry points, and numerical provenance as ordinary GitHub files. It retains negative findings and explains the limits of retrospective analysis.
+**Code and result records for _Temporal Anchors and Editing Sensitivity in Partial Speech Spoofing: A Controlled Study_.** This repository exposes localization audits, controlled intervention results, training entry points, and numerical provenance as ordinary GitHub files. It retains negative findings and explains the limits of retrospective analysis.
 
 | Start here | Contents |
 | --- | --- |
@@ -20,7 +20,7 @@ These values come from [`results/summary.json`](results/summary.json): **three s
 
 | Model | Frame EER ↓ | Frame F1 ↑ | Event F1 ↑ |
 | --- | ---: | ---: | ---: |
-**Code and result records for _Temporal Anchors and Editing Sensitivity in Partial Speech Spoofing: A Controlled Study_.** This repository exposes localization audits, controlled intervention results, training entry points, and numerical provenance as ordinary GitHub files. It retains negative findings and explains the limits of retrospective analysis.55.479 ± 0.505 |
+| Hard-target frame | 11.123 ± 0.020 | 85.945 ± 0.010 | 55.479 ± 0.505 |
 | Soft-target frame | 11.326 ± 0.132 | 85.657 ± 0.135 | 54.199 ± 0.572 |
 | Phone units | 11.237 ± 0.224 | 86.030 ± 0.314 | 49.888 ± 0.394 |
 | Word units | 12.514 ± 0.182 | 84.624 ± 0.311 | 48.169 ± 0.559 |
