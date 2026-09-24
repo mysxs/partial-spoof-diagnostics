@@ -20,7 +20,7 @@ These values come from [`results/summary.json`](results/summary.json): **three s
 
 | Model | Frame EER ↓ | Frame F1 ↑ | Event F1 ↑ |
 | --- | ---: | ---: | ---: |
-| Hard-target frame | 11.123 ± 0.020 | 85.945 ± 0.010 | 55.479 ± 0.505 |
+**Code and result records for _Temporal Anchors and Editing Sensitivity in Partial Speech Spoofing: A Controlled Study_.** This repository exposes localization audits, controlled intervention results, training entry points, and numerical provenance as ordinary GitHub files. It retains negative findings and explains the limits of retrospective analysis.55.479 ± 0.505 |
 | Soft-target frame | 11.326 ± 0.132 | 85.657 ± 0.135 | 54.199 ± 0.572 |
 | Phone units | 11.237 ± 0.224 | 86.030 ± 0.314 | 49.888 ± 0.394 |
 | Word units | 12.514 ± 0.182 | 84.624 ± 0.311 | 48.169 ± 0.559 |
@@ -62,3 +62,10 @@ The checksum command requires only Python's standard library. The tests cover ev
 The study uses PartialSpoof, HAD, LlamaPartialSpoof, WavLM, Whisper large-v3, and Montreal Forced Aligner components. Obtain the required third-party resources from their original providers. This release contains no audio, dataset labels, model weights, cached features, frozen predictions, or private execution paths. The published aggregate records can be inspected immediately; a full audit rerun requires the original frozen checkpoints/predictions and official data view. [Required inputs and limits](docs/REPRODUCIBILITY.md#what-is-and-is-not-released) are stated explicitly.
 
 Original code is released under the [MIT license](LICENSE). If you use it, see GitHub's **Cite this repository** control or [`CITATION.cff`](CITATION.cff). Reproducibility questions can be filed under [Issues](https://github.com/mysxs/partial-spoof-diagnostics/issues) with the command and integrity-check output, without uploading restricted data.
+
+
+## Reviewer revision audits (2026-09-24)
+
+The [new result records](results/reviewer_revision_20260924) cover matched nonlinguistic anchor controls, a three-seed layer-6 localization audit, source-locked cross-corpus seed records, and the full operating-point curves ([PDF](results/reviewer_revision_20260924/operating_points.pdf), [CSV](results/reviewer_revision_20260924/operating_points.csv)). The [audit scripts](scripts/reviewer_revision_20260924) are also available.
+
+The intervention-specific LlamaPartialSpoof A follow-up froze 200 constructed same-source-speaker cases from 40 speakers, nine existing frame checkpoints, and PartialSpoof-development thresholds before scoring. Its [protocol](results/reviewer_revision_20260924/protocol.json) and [paired speaker/seed statistics](results/reviewer_revision_20260924/statistics.json) retain both primary contrasts and the 50-ms smoothing result. These are constructed controls, not official Llama A benchmark metrics or a pristine blind corpus: broader Llama A transfer had already been inspected, and donor texts/generators were not matched. GG excess false alarms improve, while the synthetic-core miss-rate difference is uncertain; smoothing reverses the PartialSpoof direction. Negative and heterogeneous results are retained.
